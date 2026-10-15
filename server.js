@@ -32,6 +32,15 @@ const dbConfig = {
       : {})
   };
   
+console.log("DB 환경변수 확인:", {
+    host: Boolean(process.env.DB_HOST),
+    port: Boolean(process.env.DB_PORT),
+    user: Boolean(process.env.DB_USER),
+    password: Boolean(process.env.DB_PASSWORD),
+    database: Boolean(process.env.DB_NAME),
+    sslCA: Boolean(process.env.DB_SSL_CA_BASE64)
+  });
+  
 // 홈페이지 열기
 app.get("/", (req, res) => {
     res.sendFile(path.join(__dirname, "public", "index.html"));
