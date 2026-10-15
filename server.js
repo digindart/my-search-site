@@ -142,8 +142,10 @@ app.get("/api/search", async (req, res) => {
   
       res.json(rows.map(row => row.fiscal_year));
     } catch (error) {
-      console.error("연도 조회 오류:", error.message);
-      res.status(500).json({
+console.error("연도 목록 오류 코드:", error.code);
+console.error("연도 목록 오류 메시지:", error.message);
+
+res.status(500).json({
         error: "연도 목록을 불러오지 못했습니다."
       });
     } finally {
