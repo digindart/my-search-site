@@ -3,6 +3,7 @@ require("dotenv").config();
 const express = require("express");
 const mysql = require("mysql2/promise");
 const path = require("path");
+const fs = require("fs");
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -10,15 +11,27 @@ const PORT = process.env.PORT || 3000;
 app.use(express.json());
 app.use(express.static(path.join(__dirname, "public")));
 
+
 const dbConfig = {
     host: process.env.DB_HOST,
     port: Number(process.env.DB_PORT || 3306),
     user: process.env.DB_USER,
     password: process.env.DB_PASSWORD,
-    database: process.env.DB_NAME
+    database: process.env.DB_NAME,
+  
+    ...(process.env.DB_SSL_CA_BASE64
+      ? {
+          ssl: {
+            ca: Buffer.from(
+              process.env.DB_SSL_CA_BASE64,
+              "base64"
+            ).toString("utf8"),
+            rejectUnauthorized: true
+          }
+        }
+      : {})
   };
   
-
 // 홈페이지 열기
 app.get("/", (req, res) => {
     res.sendFile(path.join(__dirname, "public", "index.html"));
