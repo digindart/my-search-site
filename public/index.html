@@ -723,6 +723,7 @@ async function loadSuggestions() {
 async function searchCompany() {
   const company = companyInput.value.trim();
   const requestId = ++searchRequest;
+  clearTimeout(suggestionTimer);
   ++suggestRequest;
 
   hideSuggestions();
@@ -731,6 +732,7 @@ async function searchCompany() {
   downloadButton.disabled = true;
   pagination.replaceChildren();
   if (!company) {
+    searchButton.disabled = false;
     status.textContent = "회사명을 먼저 입력해주세요.";
     return;
   }
