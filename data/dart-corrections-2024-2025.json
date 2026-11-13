@@ -1,0 +1,409 @@
+{
+  "00165459/2024/20250331002860/김형국": {
+    "position_name": "전 사내이사",
+    "reason": "2024-02-28 임원 변동표에서 사내이사 김형국 교체를 확인",
+    "evidence_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250331002860",
+    "verification": {
+      "original_xml_sha256": "b0b5481f0b42c7f606dab62108321ef66513e379c61c9fc53c982151e751079d"
+    }
+  },
+  "00165459/2024/20250331002860/이두희": {
+    "position_name": "전 대표이사",
+    "reason": "2024-02-28 임원 변동표에서 대표이사 이두희 교체를 확인",
+    "evidence_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250331002860",
+    "verification": {
+      "original_xml_sha256": "b0b5481f0b42c7f606dab62108321ef66513e379c61c9fc53c982151e751079d"
+    }
+  },
+  "00165459/2024/20250331002860/임현호": {
+    "position_name": "미기재",
+    "reason": "공시 원문의 개인별 보수표 직위가 공란·대시·주석 번호뿐임을 확인. 직급을 추정하지 않고 미기재로 표시",
+    "evidence_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250331002860",
+    "verification": {
+      "original_xml_sha256": "b0b5481f0b42c7f606dab62108321ef66513e379c61c9fc53c982151e751079d"
+    }
+  },
+  "00165459/2024/20250331002860/이인배": {
+    "position_name": "미기재",
+    "reason": "공시 원문의 개인별 보수표 직위가 공란·대시·주석 번호뿐임을 확인. 직급을 추정하지 않고 미기재로 표시",
+    "evidence_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250331002860",
+    "verification": {
+      "original_xml_sha256": "b0b5481f0b42c7f606dab62108321ef66513e379c61c9fc53c982151e751079d"
+    }
+  },
+  "00165459/2025/20260331004120/오영철": {
+    "position_name": "미기재",
+    "reason": "공시 원문의 개인별 보수표 직위가 공란·대시·주석 번호뿐임을 확인. 직급을 추정하지 않고 미기재로 표시",
+    "evidence_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260331004120",
+    "verification": {
+      "original_xml_sha256": "61bf0929e9162c2fe200ec5fb1e7ee6f699ba6af164bf83a718669805d057905"
+    }
+  },
+  "00165459/2025/20260331004120/이강영": {
+    "position_name": "미기재",
+    "reason": "공시 원문의 개인별 보수표 직위가 공란·대시·주석 번호뿐임을 확인. 직급을 추정하지 않고 미기재로 표시",
+    "evidence_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260331004120",
+    "verification": {
+      "original_xml_sha256": "61bf0929e9162c2fe200ec5fb1e7ee6f699ba6af164bf83a718669805d057905"
+    }
+  },
+  "00165459/2025/20260331004120/김진": {
+    "position_name": "미기재",
+    "reason": "공시 원문의 개인별 보수표 직위가 공란·대시·주석 번호뿐임을 확인. 직급을 추정하지 않고 미기재로 표시",
+    "evidence_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260331004120",
+    "verification": {
+      "original_xml_sha256": "61bf0929e9162c2fe200ec5fb1e7ee6f699ba6af164bf83a718669805d057905"
+    }
+  },
+  "00165459/2025/20260331004120/이상훈": {
+    "position_name": "미기재",
+    "reason": "공시 원문의 개인별 보수표 직위가 공란·대시·주석 번호뿐임을 확인. 직급을 추정하지 않고 미기재로 표시",
+    "evidence_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260331004120",
+    "verification": {
+      "original_xml_sha256": "61bf0929e9162c2fe200ec5fb1e7ee6f699ba6af164bf83a718669805d057905"
+    }
+  },
+  "00821218/2025/20260331004271/박영성": {
+    "position_name": "미기재",
+    "reason": "공시 원문의 개인별 보수표 직위가 공란·대시·주석 번호뿐임을 확인. 직급을 추정하지 않고 미기재로 표시",
+    "evidence_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260331004271",
+    "verification": {
+      "original_xml_sha256": "12fa42aa79dc981c2bf5d7b7513a6ec63350099a9735ca25b394354f258fd37f"
+    }
+  },
+  "01510489/2025/20250923000316/박소연": {
+    "compensation": "759308808",
+    "currency": "KRW",
+    "reason": "외국계 발행사 원문 개인별 보수표의 원화 표시와 단위를 직접 확인",
+    "evidence_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250923000316",
+    "verification": {
+      "original_unit": "원 (SGD 원화 환산 완료 주석 확인)",
+      "original_xml_sha256": "fddcdac2061c3ce6daed053e5c47d96ec7bdc067df1a88175402316ba1ee1337"
+    }
+  },
+  "01510489/2025/20250923000316/Michael Jinwoo Kim": {
+    "compensation": "704325048",
+    "currency": "KRW",
+    "reason": "외국계 발행사 원문 개인별 보수표의 원화 표시와 단위를 직접 확인",
+    "evidence_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250923000316",
+    "verification": {
+      "original_unit": "원 (SGD 원화 환산 완료 주석 확인)",
+      "original_xml_sha256": "fddcdac2061c3ce6daed053e5c47d96ec7bdc067df1a88175402316ba1ee1337"
+    }
+  },
+  "00545734/2024/20260430001525/신용철": {
+    "position_name": "사내이사",
+    "reason": "동일 공시의 2024-03-28 사내이사 재선임 및 이사회 현황 확인",
+    "evidence_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430001525",
+    "verification": {
+      "original_xml_sha256": "a757e280ef82c325821ac60ad374ac6349645073b482bad0f615c243a5d41a79"
+    }
+  },
+  "00126414/2024/20250814003559/김상재": {
+    "position_name": "전 대표이사",
+    "reason": "동일 공시 2024-04-01 대표이사 사임 및 급여 중도퇴사 주석 확인",
+    "evidence_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250814003559",
+    "verification": {
+      "original_xml_sha256": "c47f94cd828a03fb90173022b67bedaadfd1d33c58ecee709414279cad496cad"
+    }
+  },
+  "00359395/2024/20250814003809/김선영": {
+    "position_name": "미기재",
+    "reason": "공시 원문의 개인별 보수표 직위가 공란·대시·주석 번호뿐임을 확인. 직급을 추정하지 않고 미기재로 표시",
+    "evidence_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250814003809",
+    "verification": {
+      "original_xml_sha256": "b74ab23f30dbe7f5dfd62559a5e3bef284f15048be85556d796d372776ae38b4"
+    }
+  },
+  "00148470/2024/20250319000548/김용규": {
+    "compensation": "683850000",
+    "reason": "동일 공시 이사·감사 개인별 보수표는 천원, 상위5인 표는 백만원으로 상충. 동일 인물·총액 및 산정기준을 대조해 천원 기준으로 정정",
+    "evidence_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250319000548",
+    "verification": {
+      "original_amount": "683850",
+      "original_unit": "천원",
+      "api_table_unit_conflict": true,
+      "original_xml_sha256": "b6a99bc9b3e8d42e935a99a04cbeb471e8011310a929256f7353af1203ece718"
+    }
+  },
+  "00148470/2024/20250319000548/김옥준": {
+    "compensation": "993482000",
+    "reason": "동일 공시 이사·감사 개인별 보수표는 천원, 상위5인 표는 백만원으로 상충. 동일 인물·총액 및 산정기준을 대조해 천원 기준으로 정정",
+    "evidence_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250319000548",
+    "verification": {
+      "original_amount": "993482",
+      "original_unit": "천원",
+      "api_table_unit_conflict": true,
+      "original_xml_sha256": "b6a99bc9b3e8d42e935a99a04cbeb471e8011310a929256f7353af1203ece718"
+    }
+  },
+  "00317104/2025/20260313001028/박희원": {
+    "position_name": "미기재",
+    "reason": "공시 원문의 개인별 보수표 직위가 공란·대시·주석 번호뿐임을 확인. 직급을 추정하지 않고 미기재로 표시",
+    "evidence_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260313001028",
+    "verification": {
+      "original_xml_sha256": "9644ec3ced1c86263f36e14fedc326152c54821f3a4bfa28995025ab3be3f637"
+    }
+  },
+  "00317104/2025/20260313001028/박서영": {
+    "position_name": "미기재",
+    "reason": "공시 원문의 개인별 보수표 직위가 공란·대시·주석 번호뿐임을 확인. 직급을 추정하지 않고 미기재로 표시",
+    "evidence_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260313001028",
+    "verification": {
+      "original_xml_sha256": "9644ec3ced1c86263f36e14fedc326152c54821f3a4bfa28995025ab3be3f637"
+    }
+  },
+  "00117188/2025/20260312000976/김규영": {
+    "position_name": "미기재",
+    "reason": "공시 원문의 개인별 보수표 직위가 공란·대시·주석 번호뿐임을 확인. 직급을 추정하지 않고 미기재로 표시",
+    "evidence_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260312000976",
+    "verification": {
+      "original_xml_sha256": "cc8b97514b787dc3737833ac8c185fb2bfa4ef00be573bff4af2878c9e71601d"
+    }
+  },
+  "00573269/2024/20250319000891/박순관": {
+    "position_name": "전 대표이사",
+    "reason": "동일 공시 2024-08-28 대표이사 및 사내이사 사임 확인",
+    "evidence_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250319000891",
+    "verification": {
+      "original_xml_sha256": "2a5c6cdb0791f48c38d8029c7f912429800cc5fb7da0e3ffb77abed0e6433eb9"
+    }
+  },
+  "01327746/2024/20250320001039/최환근": {
+    "position_name": "전 자회사 임원",
+    "reason": "동일 공시 주식매수선택권 표에 전 자회사 임원으로 명시",
+    "evidence_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250320001039",
+    "verification": {
+      "original_xml_sha256": "b36713d9841444236cc21edc13eff09d95bf749bbba76073d76f0d0f5f9f6ccb"
+    }
+  },
+  "01327746/2024/20250320001039/김남두": {
+    "position_name": "전 자회사 임원",
+    "reason": "동일 공시 주식매수선택권 표에 전 자회사 임원으로 명시",
+    "evidence_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250320001039",
+    "verification": {
+      "original_xml_sha256": "b36713d9841444236cc21edc13eff09d95bf749bbba76073d76f0d0f5f9f6ccb"
+    }
+  },
+  "01327746/2025/20260320000892/권기호": {
+    "position_name": "미기재",
+    "reason": "공시 원문의 개인별 보수표 직위가 공란·대시·주석 번호뿐임을 확인. 직급을 추정하지 않고 미기재로 표시",
+    "evidence_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320000892",
+    "verification": {
+      "original_xml_sha256": "e9a6ffc36704fc2a8f8007dd6f7263f8237040a94bb57fdc7461c5f68db9a74e"
+    }
+  },
+  "01259311/2024/20250320001751/김영문": {
+    "position_name": "미기재",
+    "reason": "공시 원문의 개인별 보수표 직위가 공란·대시·주석 번호뿐임을 확인. 직급을 추정하지 않고 미기재로 표시",
+    "evidence_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250320001751",
+    "verification": {
+      "original_xml_sha256": "f75175edcd6e1ca4d518fc46f4373b7adf1cfb97c053d6b72b80e2307dd928c0"
+    }
+  },
+  "01259311/2024/20250320001751/김영완": {
+    "position_name": "미기재",
+    "reason": "공시 원문의 개인별 보수표 직위가 공란·대시·주석 번호뿐임을 확인. 직급을 추정하지 않고 미기재로 표시",
+    "evidence_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250320001751",
+    "verification": {
+      "original_xml_sha256": "f75175edcd6e1ca4d518fc46f4373b7adf1cfb97c053d6b72b80e2307dd928c0"
+    }
+  },
+  "01511558/2024/20250321001340/Luke Yun Suk Oh": {
+    "compensation": "576019666",
+    "currency": "KRW",
+    "reason": "표 머리말 백만원 표기와 달리 주석2가 USD라고 명시. 동일 공시 주석1에 기재된 당기 평균환율로 원화 환산 후 원 미만 반올림",
+    "evidence_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250321001340",
+    "verification": {
+      "original_amount": "422308",
+      "original_currency": "USD",
+      "krw_per_usd": "1363.98",
+      "rounding": "ROUND_HALF_UP to integer KRW",
+      "original_xml_sha256": "63b6420ea97e4aba64239da2b3c4aeda70b94dc2caf927768cf72b61afd021b7"
+    }
+  },
+  "01511558/2025/20260319001392/Luke Yun Suk Oh": {
+    "compensation": "607313540",
+    "currency": "KRW",
+    "position_name": "전 대표이사",
+    "reason": "표 머리말 백만원 표기와 달리 주석2가 USD라고 명시. 동일 공시 주석1에 기재된 당기 평균환율로 원화 환산 후 원 미만 반올림; 주석3의 2025-10-10 대표이사 사임 반영",
+    "evidence_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319001392",
+    "verification": {
+      "original_amount": "427018",
+      "original_currency": "USD",
+      "krw_per_usd": "1422.22",
+      "rounding": "ROUND_HALF_UP to integer KRW",
+      "original_xml_sha256": "b657febde242f4edb98b351fb363cff5cc709178ff189df9ba84678c4a956e61"
+    }
+  },
+  "00146454/2025/20260318000595/정도언": {
+    "position_name": "회장",
+    "reason": "동일 공시 최대주주 주요경력에 일양약품 회장으로 명시",
+    "evidence_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318000595",
+    "verification": {
+      "original_xml_sha256": "b59e21f13ed75b01d0d80f9e055a973ec4822dd10638c60ee2efcf4b8476d344"
+    }
+  },
+  "00907864/2024/20250331003083/장성일": {
+    "position_name": "미기재",
+    "reason": "공시 원문의 개인별 보수표 직위가 공란·대시·주석 번호뿐임을 확인. 직급을 추정하지 않고 미기재로 표시",
+    "evidence_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250331003083",
+    "verification": {
+      "original_xml_sha256": "ca5f300a71c0acb201e34258659c51e7da5904e69ab8cf04ac51447032e1a0d8"
+    }
+  },
+  "00907864/2024/20250331003083/엄태욱": {
+    "position_name": "미기재",
+    "reason": "공시 원문의 개인별 보수표 직위가 공란·대시·주석 번호뿐임을 확인. 직급을 추정하지 않고 미기재로 표시",
+    "evidence_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250331003083",
+    "verification": {
+      "original_xml_sha256": "ca5f300a71c0acb201e34258659c51e7da5904e69ab8cf04ac51447032e1a0d8"
+    }
+  },
+  "00585608/2024/20250321000823/김기록": {
+    "position_name": "CEO·이사회 의장",
+    "reason": "동일 공시 보수 산정기준에 CEO 선임 및 이사회 의장 위촉 계약을 명시",
+    "evidence_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250321000823",
+    "verification": {
+      "original_xml_sha256": "a7adbdc8c022b0a63d9512dc94c4c38cdb641fad4dcb5b9867c4d86725ffde9f"
+    }
+  },
+  "00956028/2024/20250814003527/최영호": {
+    "compensation": "2887000000",
+    "currency": "KRW",
+    "reason": "외국계 발행사 원문 개인별 보수표의 원화 표시와 단위를 직접 확인",
+    "evidence_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250814003527",
+    "verification": {
+      "original_unit": "백만원",
+      "original_xml_sha256": "d915e23363ec37dbeb70de0496647a6583bc17f6f779cb112c04b532ac1b807d"
+    }
+  },
+  "00956028/2024/20250814003527/한의상": {
+    "compensation": "1236000000",
+    "currency": "KRW",
+    "reason": "외국계 발행사 원문 개인별 보수표의 원화 표시와 단위를 직접 확인",
+    "evidence_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250814003527",
+    "verification": {
+      "original_unit": "백만원",
+      "original_xml_sha256": "d915e23363ec37dbeb70de0496647a6583bc17f6f779cb112c04b532ac1b807d"
+    }
+  },
+  "00956028/2024/20250814003527/최보경": {
+    "compensation": "561000000",
+    "currency": "KRW",
+    "reason": "외국계 발행사 원문 개인별 보수표의 원화 표시와 단위를 직접 확인",
+    "evidence_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250814003527",
+    "verification": {
+      "original_unit": "백만원",
+      "original_xml_sha256": "d915e23363ec37dbeb70de0496647a6583bc17f6f779cb112c04b532ac1b807d"
+    }
+  },
+  "00956028/2025/20260623000058/최영호": {
+    "compensation": "1242000000",
+    "currency": "KRW",
+    "reason": "외국계 발행사 원문 개인별 보수표의 원화 표시와 단위를 직접 확인",
+    "evidence_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260623000058",
+    "verification": {
+      "original_unit": "백만원",
+      "original_xml_sha256": "ffcb5a6ceb5e495aa039e26ea17ffff8240fd14f4e193dce1ff30a46fde08314"
+    }
+  },
+  "00956028/2025/20260623000058/한의상": {
+    "compensation": "902000000",
+    "currency": "KRW",
+    "reason": "외국계 발행사 원문 개인별 보수표의 원화 표시와 단위를 직접 확인",
+    "evidence_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260623000058",
+    "verification": {
+      "original_unit": "백만원",
+      "original_xml_sha256": "ffcb5a6ceb5e495aa039e26ea17ffff8240fd14f4e193dce1ff30a46fde08314"
+    }
+  },
+  "01416235/2024/20250320001365/손창욱": {
+    "compensation": "720000000",
+    "currency": "KRW",
+    "reason": "외국계 발행사 원문 개인별 보수표의 원화 표시와 단위를 직접 확인",
+    "evidence_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250320001365",
+    "verification": {
+      "original_unit": "백만원 (원화 환산표, USD 별도 표와 구분)",
+      "original_xml_sha256": "ceb93c33bcea0fe29fa69c296a2e777bfa0b10fd5212f019beacc30a996e84b8"
+    }
+  },
+  "01416235/2025/20260320001080/손창욱": {
+    "compensation": "825000000",
+    "currency": "KRW",
+    "reason": "외국계 발행사 원문 개인별 보수표의 원화 표시와 단위를 직접 확인",
+    "evidence_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320001080",
+    "verification": {
+      "original_unit": "백만원 (원화 환산표, USD 별도 표와 구분)",
+      "original_xml_sha256": "0271d38265ebd72c3aaf25e9e2314a9243284c0c6ed2b220abd5e6cb6a14c485"
+    }
+  },
+  "01061497/2025/20260323001739/이상석": {
+    "position_name": "미기재",
+    "reason": "공시 원문의 개인별 보수표 직위가 공란·대시·주석 번호뿐임을 확인. 직급을 추정하지 않고 미기재로 표시",
+    "evidence_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323001739",
+    "verification": {
+      "original_xml_sha256": "8a49b4dd14edf653e619cca63013a54be6eefde8d4e866a73082c108c7b2d3ad"
+    }
+  },
+  "00160588/2025/20260331003871/박철광": {
+    "position_name": "부사장",
+    "reason": "동일 공시 보수 산정기준에 직위 부사장 명시",
+    "evidence_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260331003871",
+    "verification": {
+      "original_xml_sha256": "bb411f4d768f9c00d7374938c1b580a58395a9090f1028d22031eef7c7322b62"
+    }
+  },
+  "00160588/2025/20260331003871/여성진": {
+    "position_name": "전무",
+    "reason": "동일 공시 보수 산정기준에 직위 전무 명시",
+    "evidence_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260331003871",
+    "verification": {
+      "original_xml_sha256": "bb411f4d768f9c00d7374938c1b580a58395a9090f1028d22031eef7c7322b62"
+    }
+  },
+  "00160588/2025/20260331003871/이종훈": {
+    "position_name": "전무",
+    "reason": "동일 공시 보수 산정기준에 직위 전무 명시",
+    "evidence_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260331003871",
+    "verification": {
+      "original_xml_sha256": "bb411f4d768f9c00d7374938c1b580a58395a9090f1028d22031eef7c7322b62"
+    }
+  },
+  "00219574/2025/20260317000869/이윤종": {
+    "position_name": "전 대표이사",
+    "reason": "동일 공시 대표이사 취임 이력 및 2025-03-27 사임 내역 확인",
+    "evidence_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260317000869",
+    "verification": {
+      "original_xml_sha256": "2017b8bdc65d9076573f0afc33d7f14a9330495ba888a3bc365708cd93edf606"
+    }
+  },
+  "01245062/2024/20250318000527/노문종": {
+    "compensation": "572872000",
+    "currency": "KRW",
+    "reason": "외국계 발행사 원문 개인별 보수표의 원화 표시와 단위를 직접 확인",
+    "evidence_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250318000527",
+    "verification": {
+      "original_unit": "천원",
+      "original_xml_sha256": "47043cc30c09a6dd50aa93785ba6cc5962a28f926adee11b9db7384584761d47"
+    }
+  },
+  "01245062/2025/20260318001341/노문종": {
+    "compensation": "597332000",
+    "currency": "KRW",
+    "reason": "외국계 발행사 원문 개인별 보수표의 원화 표시와 단위를 직접 확인",
+    "evidence_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001341",
+    "verification": {
+      "original_unit": "천원",
+      "original_xml_sha256": "c93c9e24700cfd70af24e4072ba6f9082d9254a90bd1a5c1d499f3465b6c9938"
+    }
+  },
+  "01405585/2025/20260318001575/*": {
+    "position_name": "미기재",
+    "reason": "공시 원문의 개인별 보수표 직위가 공란·대시·주석 번호뿐임을 확인. 직급을 추정하지 않고 미기재로 표시",
+    "evidence_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001575",
+    "verification": {
+      "original_xml_sha256": "b2ca8db05edba0415faadee52c2d92023f319b376cef3c02698fb67ab6cd7340"
+    }
+  }
+}

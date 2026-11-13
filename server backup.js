@@ -13,7 +13,7 @@ const dbConfig = {
   host: "127.0.0.1",
   port: 3306,
   user: "salary_app",
-  password: "LocalSalary_2026!",
+  password: process.env.DB_PASSWORD,
   database: "searchdb",
 };
 

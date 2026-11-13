@@ -1,0 +1,12 @@
+const test=require('node:test');const assert=require('node:assert/strict');
+const db=require('../lib/db');const calls=[];
+db.database=()=>({execute:async(sql,params)=>{calls.push({sql,params});if(sql.includes('SELECT DISTINCT fiscal_year'))return [[{fiscal_year:2025}]];if(sql.includes('SELECT DISTINCT company_name FROM'))return [[{company_name:'삼성전자'}]];return [[{company_name:'삼성전자',fiscal_year:2025,employee_name:'홍길동',position_name:'대표이사',compensation:'900000000'}]];},query:async()=>[[{fiscal_year:2025}]]});
+const app=require('../server');let server,base;
+test.before(async()=>{server=app.listen(0,'127.0.0.1');await new Promise(r=>server.once('listening',r));base='http://127.0.0.1:'+server.address().port;});
+test.after(()=>new Promise(r=>server.close(r)));
+test('invalid year rejected before any database access',async()=>{const before=calls.length;const res=await fetch(base+'/api/search?company=test&year=bad');assert.equal(res.status,400);assert.equal(calls.length,before);});
+test('company search parameterized and deduplicated',async()=>{const name="a' OR 1=1 --";const res=await fetch(base+'/api/search?company='+encodeURIComponent(name));assert.equal(res.status,200);const last=calls.at(-1);assert.equal(last.params[0],name);assert(!last.sql.includes(name));assert(last.sql.startsWith('SELECT DISTINCT'));});
+test('autocomplete escapes literal SQL wildcards',async()=>{await fetch(base+'/api/suggest?company=a%25_');const last=calls.at(-1);assert.equal(last.params[0],'%a!%!_%');assert(last.sql.includes("ESCAPE '!'"));});
+test('category page is rendered on server with real links',async()=>{const res=await fetch(base+'/rankings/samsung');const html=await res.text();assert.equal(res.status,200);assert(html.includes('홍길동'));assert(html.includes('더 알아보기'));assert(html.includes('900,000,000원'));});
+test('homepage metadata is outside CSS and contains editorial entry points',async()=>{const res=await fetch(base);const html=await res.text();assert.equal(res.status,200);assert.equal((html.match(/<style>/g)||[]).length,1);assert(!html.includes('adsbygoogle'));assert(html.includes('/rankings/securities'));});
+test('unknown category returns 404 and sitemap covers all categories',async()=>{assert.equal((await fetch(base+'/rankings/no-such-group')).status,404);const xml=await(await fetch(base+'/sitemap.xml')).text();assert(xml.includes('/rankings/hyundai-motor'));assert(xml.includes('/methodology'));});
