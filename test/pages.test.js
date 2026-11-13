@@ -18,3 +18,8 @@ test('Hyundai groups are separated, no name-prefix grouping',()=>{
  assert(categories.find(c=>c.slug==='hyundai'));assert(categories.find(c=>c.slug==='hyundai-motor'));assert(!categories.find(c=>c.slug==='hyundai').companies.includes('현대자동차'));
 });
 test('won formatting preserves integers beyond JS float precision',()=>assert.equal(money('9007199254740993'),'9,007,199,254,740,993원'));
+
+test('anonymous disclosure names stay anonymous and have no news link',()=>{
+ const html=categoryPage(categories[0],2025,[2025],[{company_name:'회사',fiscal_year:2025,employee_name:'김OO',position_name:'직원',compensation:'900000000'}]);
+ assert(html.includes('김OO (공시 익명)'));assert(!html.includes('search.naver.com'));
+});

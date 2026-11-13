@@ -863,7 +863,7 @@ function renderPage(page) {
     addCell(row, item.review_required ? "원문 검토 중" : formatCompensation(item.compensation));
 
     const detail = document.createElement("td");
-    if (item.employee_name && item.employee_name !== "-") {
+    if (item.employee_name && item.employee_name !== "-" && !/[○●〇*]|[OX]{2,}/.test(item.employee_name)) {
       const link = document.createElement("a");
       const keywords = [item.employee_name, item.company_name, item.position_name, item.fiscal_year].join(" ");
       link.href = "https://search.naver.com/search.naver?where=news&query=" + encodeURIComponent(keywords);

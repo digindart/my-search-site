@@ -1,0 +1,28 @@
+{
+  "date_kst": "2026-11-14",
+  "business_years": [
+    2024,
+    2025
+  ],
+  "report_code": "11011",
+  "endpoint": "indvdlByPay.json",
+  "acquisition_complete": true,
+  "company_years_requested": 10374,
+  "api_status_counts": {
+    "013": 3823,
+    "000": 6551
+  },
+  "new_rows_by_year": {
+    "2024": 2584,
+    "2025": 2671
+  },
+  "named_or_masked_disclosures": 5255,
+  "distinct_companies": 1286,
+  "undisclosed_placeholder_rows": 5991,
+  "source_reviewed_corrections": 46,
+  "pending_review": 0,
+  "database_verified": true,
+  "new_duplicates": 0,
+  "database_total_rows": 21419,
+  "database_verified_at_utc": "2026-11-13T15:36:20.893Z"
+}

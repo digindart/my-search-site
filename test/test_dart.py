@@ -11,6 +11,13 @@ class Normalization(unittest.TestCase):
  def test_invalid_amount_never_zero(self):
   for a in ['-','USD 5,000','1억원','NaN','1,000천원','9,99,9']:
    r=m.normalize(self.row(a),2025,'원','회사');self.assertIsNone(r['compensation']);self.assertIn('invalid_amount_or_unit',r['issues'])
+ def test_dash_only_placeholder_is_not_an_employee(self):
+  self.assertTrue(m.is_no_disclosure(dict(nm='-',ofcps='-',mendng_totamt='-')))
+  self.assertFalse(m.is_no_disclosure(dict(nm='홍길동',ofcps='-',mendng_totamt='-')))
+ def test_foreign_issuer_and_footnote_names(self):
+  r=self.row();r['nm']='김준형*';self.assertEqual(m.normalize(r,2025,'원','회사')['employee_name'],'김준형')
+  r['nm']='*';self.assertEqual(m.normalize(r,2025,'원','회사')['employee_name'],'*')
+  self.assertIn('foreign_issuer_currency_review',m.normalize(r,2025,'원','회사','950220')['issues'])
  def test_year_and_identity(self):
   r=self.row();r['nm']='합계';r['stlm_dt']='2024-12-31';x=m.normalize(r,2025,'원','회사');self.assertIn('missing_or_aggregate_name',x['issues']);self.assertIn('settlement_year_mismatch',x['issues'])
 if __name__=='__main__':unittest.main()

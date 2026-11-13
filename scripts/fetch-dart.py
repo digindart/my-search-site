@@ -6,15 +6,23 @@ from xml.etree import ElementTree
 
 def clean(value):
     text = unicodedata.normalize('NFKC', str(value or ''))
-    text = text.replace('\\r\\n', ' ').replace('\\n',' ')
+    text = text.replace('\\r\\n', ' ').replace('\\n',' ').replace('\u200b','').replace('\ufeff','')
     text = re.sub(r'<[^>]+>', ' ', text)
     text = re.sub(r'\(\s*주\s*\d+\s*\)|\[\s*주\s*\d+\s*\]|주\s*\d+\)', '', text)
     return re.sub(r'\s+', ' ', text).strip()
 
-def normalize(row, year, unit, company):
-    name, position = clean(row.get('nm')), clean(row.get('ofcps'))
+def normalize(row, year, unit, company, stock_code=''):
+    name = clean(row.get('nm'))
+    if re.fullmatch(r'[가-힣]{2,6}[*†‡]',name):name=name[:-1]
+    name=re.sub(r'[†‡]+$','',name).strip()
+    position = re.sub(r'[*†‡]+$', '', clean(row.get('ofcps'))).strip()
+    expansions={'CEO':'Chief Executive Officer','CFO':'Chief Financial Officer','COO':'Chief Operating Officer','CCO':'Chief Commerce Officer','CEHSO':'Chief Environment, Health, Safety Officer'}
+    for acronym,expansion in expansions.items():
+        position=re.sub(re.escape(acronym)+r'\s*\(\s*'+re.escape(expansion).replace(r'\ ',r'\s*')+r'\s*\)',acronym,position,flags=re.I)
+    for a,b in [('대표 이사','대표이사'),('사내 이사','사내이사'),('사외 이사','사외이사')]:position=position.replace(a,b)
     raw = str(row.get('mendng_totamt', '')).strip()
     issues = []
+    if stock_code.startswith(('900','950')):issues.append('foreign_issuer_currency_review')
     if not name or name in ('-', '합계', '계', '해당사항 없음'): issues.append('missing_or_aggregate_name')
     if not position or position == '-': issues.append('missing_position')
     if str(row.get('currency', 'KRW')).upper() not in ('KRW', '원'): issues.append('foreign_currency_requires_review')
@@ -33,8 +41,13 @@ def normalize(row, year, unit, company):
     if row.get('stlm_dt') and not str(row['stlm_dt']).startswith(str(year)): issues.append('settlement_year_mismatch')
     return dict(company_name=company, fiscal_year=year, employee_name=name, position_name=position,
         compensation=str(amount) if amount is not None else None, corp_code=row.get('corp_code'), rcept_no=receipt,
-        source_unit=unit, raw=row, issues=issues,
+        source_unit=unit, stock_code=stock_code, raw=row, issues=issues,
         changes={k:{'from':row.get(k),'to':v} for k,v in [('nm',name),('ofcps',position)] if str(row.get(k) or '')!=v})
+
+def is_no_disclosure(row):
+    # OpenDART can return status 000 with dash-only placeholder rows.
+    missing={'','-','--','해당사항 없음','해당사항없음','해당 없음','없음'}
+    return all(clean(row.get(field)) in missing for field in ('nm','ofcps')) and clean(row.get('mendng_totamt')) in missing|{'0','0.0'}
 
 def read_env(filename):
     if not filename: return
@@ -46,6 +59,7 @@ def read_env(filename):
 
 def main():
     parser=argparse.ArgumentParser()
+    parser.add_argument('--workers',type=int,default=4,choices=range(1,9))
     parser.add_argument('--env');parser.add_argument('--years', nargs='+',type=int,default=[2024,2025])
     parser.add_argument('--unit',choices=['원','천원','백만원'],required=True,help='Confirm API source unit from source filings; never infer from magnitude')
     parser.add_argument('--corrections',help='Reviewed corrections JSON keyed by corp/year/receipt/raw name')
@@ -74,22 +88,54 @@ def main():
     if args.legacy_sql:
         sql=Path(args.legacy_sql).read_text()
         for n in re.findall(r"^\(\d+,'((?:\\.|[^'\\])*)',\d+,",sql,re.M):legacy.setdefault(norm(n),n)
-    companies=[]
+    companies=[];stock_codes={}
     for e in root.findall('list'):
         code=e.findtext('corp_code');name=e.findtext('corp_name') or '';stock=(e.findtext('stock_code') or '').strip()
         if args.corp_codes:
             selected=code in args.corp_codes
         else:selected=bool(stock) or norm(name) in legacy
-        if selected:companies.append((code,legacy.get(norm(name),name)))
+        if selected:
+            companies.append((code,legacy.get(norm(name),name)));stock_codes[code]=stock
     if not companies:raise RuntimeError('No companies selected')
     units=json.loads(Path(args.units).read_text()) if args.units else {}
     corrections=json.loads(Path(args.corrections).read_text()) if args.corrections else {}
     used_corrections=set()
+    # Bounded parallel network I/O; cache remains one file per company/year.
+    from concurrent.futures import ThreadPoolExecutor
+    import threading
+    halt=threading.Event();rate_lock=threading.Lock();last_request=[0.0];prefetch_errors={}
+    tasks=[(code,year) for code,_ in companies for year in args.years if not (rawdir/f'{code}-{year}.json').exists()]
+    def prefetch(task):
+        code,year=task
+        if halt.is_set():return task,'acquisition halted'
+        with rate_lock:
+            wait=.12-(time.monotonic()-last_request[0])
+            if wait>0:time.sleep(wait)
+            last_request[0]=time.monotonic()
+        if halt.is_set():return task,'acquisition halted'
+        try:
+            payload=json.loads(request('indvdlByPay.json',{'corp_code':code,'bsns_year':year,'reprt_code':'11011'}))
+            status=payload.get('status')
+            if status not in ['000','013']:
+                if status in ['010','011','012','020']:halt.set()
+                return task,'OpenDART status '+str(status)
+            target=rawdir/f'{code}-{year}.json'
+            temporary=target.with_suffix('.tmp')
+            temporary.write_text(json.dumps(payload,ensure_ascii=False,indent=2));temporary.replace(target)
+            return task,None
+        except Exception as e:return task,str(e)
+    if tasks:
+        print(f'Fetching {len(tasks)} uncached company-years with {args.workers} workers',flush=True)
+        with ThreadPoolExecutor(max_workers=args.workers) as executor:
+            for index,(task,error) in enumerate(executor.map(prefetch,tasks),1):
+                if error:prefetch_errors[task]=error
+                if index%200==0:print(f'Prefetched {index}/{len(tasks)} company-years',flush=True)
     records=[];coverage=[];failures=[]
     for code,name in companies:
         for year in args.years:
             target=rawdir/f'{code}-{year}.json'
             try:
+                if (code,year) in prefetch_errors:raise RuntimeError(prefetch_errors[(code,year)])
                 if target.exists():payload=json.loads(target.read_text())
                 else:
                     payload=json.loads(request('indvdlByPay.json',{'corp_code':code,'bsns_year':year,'reprt_code':'11011'}))
@@ -98,7 +144,9 @@ def main():
                 status=payload.get('status')
                 if status not in ['000','013']:raise RuntimeError('OpenDART status '+str(status))
                 unit=units.get(f'{code}/{year}',args.unit)
-                items=[normalize(dict(r,corp_code=code),year,unit,name) for r in payload.get('list',[])]
+                source_rows=payload.get('list',[])
+                undisclosed=sum(is_no_disclosure(r) for r in source_rows)
+                items=[normalize(dict(r,corp_code=code),year,unit,name,stock_codes.get(code,'')) for r in source_rows if not is_no_disclosure(r)]
                 for item in items:
                     correction_key=f"{code}/{year}/{item['rcept_no']}/{item['raw'].get('nm','')}"
                     correction=corrections.get(correction_key)
@@ -116,13 +164,15 @@ def main():
                             elif not clean(value): raise RuntimeError('Empty correction')
                             item[field]=value
                             item['changes'][field]=dict(before=before,after=value,reason=correction['reason'],evidence_url=evidence)
+                        if correction.get('verification'):item['changes']['source_verification']=correction['verification']
                         # Revalidate corrected fields; independent provenance issues remain unresolved.
                         resolved=[]
                         if item['employee_name'] not in ('','-','합계','계','해당사항 없음'):resolved.append('missing_or_aggregate_name')
                         if item['position_name'] not in ('','-'):resolved.append('missing_position')
                         if 'compensation' in correction:resolved.extend(['amount_requires_source_review','invalid_amount_or_unit'])
+                        if correction.get('currency')=='KRW' and 'compensation' in correction:resolved.append('foreign_issuer_currency_review')
                         item['issues']=[issue for issue in item['issues'] if issue not in resolved]
-                records.extend(items);coverage.append(dict(corp_code=code,company_name=name,year=year,status=status,rows=len(items)))
+                records.extend(items);coverage.append(dict(corp_code=code,company_name=name,year=year,status=status,rows=len(items),undisclosed_rows=undisclosed))
             except Exception as e:
                 failures.append(dict(corp_code=code,year=year,error=str(e)))
                 print(f'Failed {code}/{year}: {e}',flush=True)
@@ -137,7 +187,7 @@ def main():
     records=list(unique.values());identities={}
     for r in records:identities.setdefault((r['corp_code'],r['fiscal_year'],r['employee_name']),[]).append(r)
     for group in identities.values():
-        if len(group)>1:
+        if len(group)>1 and not re.search(r'[○●〇*]|[OX]{2,}',group[0]['employee_name']):
             for r in group:r['issues'].append('multiple_records_for_same_name_review')
     if set(corrections)-used_corrections:
         failures.append(dict(error='Unused corrections: verify corp/year/receipt/raw name keys'))
