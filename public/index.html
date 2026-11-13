@@ -3,22 +3,12 @@
 <html lang="ko">
 <head>
 
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9113538104117961"
-     crossorigin="anonymous"></script>
-
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>기업 연봉 검색</title>
+  <title>기업별 공시 보수 검색 및 업권·그룹 순위 | PAY INSIGHT</title>
+  <meta name="description" content="기업별 공시 개인 보수총액을 검색하고 증권사·보험사·은행 및 주요 그룹의 순위를 비교하세요. 보수의 구성과 자료 해석 기준을 함께 제공합니다.">
+  <link rel="canonical" href="https://salaryinsight.co.kr/">
   <style>
-
-
-<title>기업별 임직원 연봉 검색 | Salary Insight</title>
-
-<meta name="description"
-content="국내 상장기업의 임직원 연봉과 보수총액을 간편하게 검색하세요. 회사명과 연도별 임원 보수 정보를 확인할 수 있는 Salary Insight.">
-
-
-<style>
   /* 기본 설정 */
   * {
     box-sizing: border-box;
@@ -530,15 +520,23 @@ content="국내 상장기업의 임직원 연봉과 보수총액을 간편하게
     </div>
   
     <nav class="site-nav">
-      <a href="/">기업 연봉 검색</a>
+      <a href="/rankings">업권·그룹 순위</a> · <a href="/methodology">자료 읽는 법</a>
     </nav>
   </header>
   
   <h1>기업 연봉 검색</h1>
   <p class="description">
-    회사명을 입력하면 해당 기업의 임직원 보수 데이터를 검색합니다.
+    사업보고서에 공개된 개인별 보수총액을 검색합니다. 일반 직원의 평균 연봉과는 다릅니다.
   </p>
 
+  <section class="search-card">
+    <h2>공시 보수 순위 살펴보기</h2>
+    <p>기본급, 성과급, 퇴직금이 함께 포함될 수 있는 보수총액을 같은 사업연도로 비교하세요. 각 페이지는 대상 회사와 비교 기준을 설명합니다.</p>
+    <p><a href="/rankings/securities">증권사</a> · <a href="/rankings/insurance">보험사</a> · <a href="/rankings/banks">은행</a> · <a href="/rankings/samsung">삼성그룹</a> · <a href="/rankings/hyundai">현대그룹</a> · <a href="/rankings/hyundai-motor">현대자동차그룹</a> · <a href="/rankings/sk">SK그룹</a> · <a href="/rankings/hanwha">한화그룹</a> · <a href="/rankings/lotte">롯데그룹</a></p>
+    <h3>순위에 나타나지 않는 정보</h3>
+    <p>개인별 공시 대상자는 회사의 모든 직원을 대표하지 않습니다. 퇴직금이나 주식 보상이 큰 해의 보수는 매년 반복되는 급여와 차이가 있습니다. 같은 이름이라도 회사가 다르면 지급 내역을 별도로 확인해야 합니다.</p>
+    <a href="/methodology">수집 범위와 정제 기준 읽기 →</a>
+  </section>
   <section class="search-card">
     <h2>기업 검색</h2> 
 <div class="search-area">
@@ -582,7 +580,7 @@ content="국내 상장기업의 임직원 연봉과 보수총액을 간편하게
           <th>결산기준일</th>
           <th>이름</th>
           <th>직위</th>
-          <th>보수총액</th>
+          <th>보수총액</th><th>관련 정보</th>
         </tr>
       </thead>
       <tbody id="results"></tbody>
@@ -599,7 +597,7 @@ content="국내 상장기업의 임직원 연봉과 보수총액을 간편하게
     <p>
       검색 결과는 데이터의 수집 시점과 정리 방식에 따라
       실제 공시 자료와 차이가 있을 수 있습니다.
-      중요한 의사결정에는 원본 공시 자료를 확인하시기 바랍니다.
+      중요한 의사결정에는 원본 공시 자료를 확인하시기 바랍니다. 기존 2021~2023 자료의 일부 금액은 단위 확인이 진행 중입니다. <a href="/methodology">자료 출처·정제 기준</a> · <a href="/privacy">개인정보 안내</a>
     </p>
   </section>
   
@@ -623,6 +621,8 @@ let currentPage = 1;
 const yearFilter = document.getElementById("yearFilter");
 const sortFilter = document.getElementById("sortFilter");
 let suggestRequest = 0;
+let searchRequest = 0;
+let suggestionTimer;
 
 function hideSuggestions() {
   suggestions.replaceChildren();
@@ -722,6 +722,8 @@ async function loadSuggestions() {
 // 검색 결과 표시
 async function searchCompany() {
   const company = companyInput.value.trim();
+  const requestId = ++searchRequest;
+  ++suggestRequest;
 
   hideSuggestions();
   results.replaceChildren();
@@ -753,6 +755,7 @@ const response = await fetch("/api/search?" + params.toString());
 
     const data = await response.json();
 
+    if (requestId !== searchRequest) return;
     currentResults = data;
 downloadButton.disabled = data.length === 0;
 
@@ -766,15 +769,21 @@ downloadButton.disabled = data.length === 0;
     status.textContent =
       data.length + "건의 검색 결과를 찾았습니다.";
   } catch (error) {
+    if (requestId !== searchRequest) return;
     console.error(error);
     status.textContent =
-      "검색에 실패했습니다. 서버 실행 상태를 확인해주세요.";
+      "자료를 불러오지 못했습니다. 잠시 후 다시 시도해주세요.";
   } finally {
-    searchButton.disabled = false;
+    if (requestId === searchRequest) searchButton.disabled = false;
   }
 }
 
-companyInput.addEventListener("input", loadSuggestions);
+companyInput.addEventListener("input", () => {
+  ++suggestRequest;
+  hideSuggestions();
+  clearTimeout(suggestionTimer);
+  suggestionTimer = setTimeout(loadSuggestions, 250);
+});
 searchButton.addEventListener("click", searchCompany);
 
 companyInput.addEventListener("keydown", (event) => {
@@ -849,8 +858,20 @@ function renderPage(page) {
     addCell(row, item.fiscal_year);
     addCell(row, item.employee_name);
     addCell(row, item.position_name);
-    addCell(row, formatCompensation(item.compensation));
+    addCell(row, item.review_required ? "원문 검토 중" : formatCompensation(item.compensation));
 
+    const detail = document.createElement("td");
+    if (item.employee_name && item.employee_name !== "-") {
+      const link = document.createElement("a");
+      const keywords = [item.employee_name, item.company_name, item.position_name, item.fiscal_year].join(" ");
+      link.href = "https://search.naver.com/search.naver?where=news&query=" + encodeURIComponent(keywords);
+      link.target = "_blank";
+      link.rel = "noopener noreferrer";
+      link.textContent = "더 알아보기";
+      link.setAttribute("aria-label", item.employee_name + " 기사 검색 (새 창)");
+      detail.appendChild(link);
+    }
+    row.appendChild(detail);
     results.appendChild(row);
   }
 
@@ -896,7 +917,7 @@ function downloadCSV() {
   if (currentResults.length === 0) return;
 
   const headers = [
-    "회사명", "결산연도", "이름", "직위", "보수총액(원)"
+    "회사명", "결산연도", "이름", "직위", "보수총액(원)", "검토상태"
   ];
 
   const rows = currentResults.map(item => [
@@ -904,11 +925,13 @@ function downloadCSV() {
     item.fiscal_year,
     item.employee_name,
     item.position_name,
-    item.compensation
+    item.compensation,
+    item.review_required ? "원문 검토 필요 — 순위 제외" : ""
   ]);
 
   function escapeCSV(value) {
-    const text = value == null ? "" : String(value);
+    let text = value == null ? "" : String(value);
+    if (/^[\s]*[=+@-]/.test(text)) text = "\'" + text;
     return '"' + text.replace(/"/g, '""') + '"';
   }
 

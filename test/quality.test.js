@@ -1,0 +1,2 @@
+const test=require('node:test');const assert=require('node:assert/strict');const {needsReview}=require('../lib/quality');
+test('huge legacy unit anomalies are quarantined without rescaling',()=>{const r={compensation:'511814548000000'};assert(needsReview(r));assert.equal(r.compensation,'511814548000000');assert(!needsReview({compensation:'559000000'}));assert(!needsReview({compensation:null}));});
