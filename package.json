@@ -4,5 +4,13 @@
     "express": "^5.3.0",
     "mysql2": "^3.24.6",
     "xlsx": "^0.18.5"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test test/*.test.js",
+    "dart:apply": "node scripts/apply-dart.js"
+  },
+  "engines": {
+    "node": ">=20"
   }
 }

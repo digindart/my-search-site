@@ -1,0 +1,2483 @@
+{
+  "classification_date": "2026-11-14",
+  "companies": [
+    {
+      "corp_code": "00103626",
+      "display_name": "한솔피엔에스",
+      "ksic_code": "467",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00105101",
+      "display_name": "INVENI",
+      "ksic_code": "715",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00105280",
+      "display_name": "현대지에프홀딩스",
+      "ksic_code": "64992",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00105952",
+      "display_name": "LS",
+      "ksic_code": "64992",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00108038",
+      "display_name": "엔피씨",
+      "ksic_code": "22232",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00108135",
+      "display_name": "녹십자홀딩스",
+      "ksic_code": "715",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00108612",
+      "display_name": "DS단석",
+      "ksic_code": "204",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00108913",
+      "display_name": "대교",
+      "ksic_code": "851",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00108940",
+      "display_name": "대성홀딩스",
+      "ksic_code": "715",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00109107",
+      "display_name": "대농",
+      "ksic_code": "13101",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00109189",
+      "display_name": "대덕",
+      "ksic_code": "64992",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00109310",
+      "display_name": "대동기어",
+      "ksic_code": "292",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00109514",
+      "display_name": "티웨이홀딩스",
+      "ksic_code": "23325",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00109754",
+      "display_name": "대림바스",
+      "ksic_code": "23222",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00109806",
+      "display_name": "삼일씨엔에스",
+      "ksic_code": "23325",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00113492",
+      "display_name": "깨끗한나라",
+      "ksic_code": "171",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00113508",
+      "display_name": "노루홀딩스",
+      "ksic_code": "64992",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00114552",
+      "display_name": "도화엔지니어링",
+      "ksic_code": "72121",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00114792",
+      "display_name": "동국홀딩스",
+      "ksic_code": "649",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00115931",
+      "display_name": "디오",
+      "ksic_code": "27192",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00115977",
+      "display_name": "아이에스동서",
+      "ksic_code": "2332",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00116824",
+      "display_name": "동아제약",
+      "ksic_code": "64992",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00117188",
+      "display_name": "효성",
+      "ksic_code": "649",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00117337",
+      "display_name": "동양",
+      "ksic_code": "23322",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00117577",
+      "display_name": "오리온홀딩스",
+      "ksic_code": "649",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00117708",
+      "display_name": "리드코프",
+      "ksic_code": "46712",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00118026",
+      "display_name": "동원산업",
+      "ksic_code": "64992",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00118275",
+      "display_name": "디아이",
+      "ksic_code": "27212",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00118345",
+      "display_name": "디아이동일",
+      "ksic_code": "46103",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00119007",
+      "display_name": "무림P&P",
+      "ksic_code": "171",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00120021",
+      "display_name": "LG",
+      "ksic_code": "64992",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00120076",
+      "display_name": "LX인터내셔널",
+      "ksic_code": "4610",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00120562",
+      "display_name": "롯데지주",
+      "ksic_code": "64992",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00121932",
+      "display_name": "미원상사",
+      "ksic_code": "204",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00122551",
+      "display_name": "백산",
+      "ksic_code": "22214",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00122898",
+      "display_name": "벽산",
+      "ksic_code": "23999",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00124197",
+      "display_name": "세아제강지주",
+      "ksic_code": "64992",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00124504",
+      "display_name": "포스코인터내셔널",
+      "ksic_code": "461",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00125080",
+      "display_name": "AK홀딩스",
+      "ksic_code": "64992",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00125488",
+      "display_name": "삼륭물산",
+      "ksic_code": "17223",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00125655",
+      "display_name": "삼미",
+      "ksic_code": "46800",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00126308",
+      "display_name": "삼성E&A",
+      "ksic_code": "72129",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00126566",
+      "display_name": "한화에어로스페이스",
+      "ksic_code": "31321",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00126937",
+      "display_name": "삼양홀딩스",
+      "ksic_code": "64992",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00127459",
+      "display_name": "삼우씨엠건축사사무소",
+      "ksic_code": "72111",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00128661",
+      "display_name": "에스에이엠티",
+      "ksic_code": "4659",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00129615",
+      "display_name": "상보",
+      "ksic_code": "222",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00129989",
+      "display_name": "코스모신소재",
+      "ksic_code": "204",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00130383",
+      "display_name": "서부T&D",
+      "ksic_code": "551",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00131780",
+      "display_name": "SK네트웍스",
+      "ksic_code": "467",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00131832",
+      "display_name": "SK디스커버리",
+      "ksic_code": "64992",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00132211",
+      "display_name": "SUN&L",
+      "ksic_code": "22232",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00132354",
+      "display_name": "쿠쿠홀딩스",
+      "ksic_code": "649",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00132637",
+      "display_name": "동원시스템즈",
+      "ksic_code": "222",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00132804",
+      "display_name": "성신양회",
+      "ksic_code": "23311",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00135962",
+      "display_name": "신라교역",
+      "ksic_code": "03111",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00136086",
+      "display_name": "무림페이퍼",
+      "ksic_code": "171",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00136341",
+      "display_name": "신성통상",
+      "ksic_code": "467",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00137289",
+      "display_name": "이엘씨",
+      "ksic_code": "272",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00138190",
+      "display_name": "GS글로벌",
+      "ksic_code": "468",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00138224",
+      "display_name": "쌍용씨앤이",
+      "ksic_code": "23311",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00138701",
+      "display_name": "아세아",
+      "ksic_code": "715",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00138729",
+      "display_name": "아세아제지",
+      "ksic_code": "172",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00139889",
+      "display_name": "SKC",
+      "ksic_code": "204",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00140168",
+      "display_name": "HS애드",
+      "ksic_code": "71310",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00140779",
+      "display_name": "영보화학",
+      "ksic_code": "2225",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00140964",
+      "display_name": "영원무역홀딩스",
+      "ksic_code": "64992",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00141404",
+      "display_name": "블루산업개발",
+      "ksic_code": "172",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00141583",
+      "display_name": "삼양컴텍",
+      "ksic_code": "25200",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00141671",
+      "display_name": "오리콤",
+      "ksic_code": "71310",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00142883",
+      "display_name": "우신시스템",
+      "ksic_code": "292",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00143651",
+      "display_name": "웅진",
+      "ksic_code": "64992",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00144164",
+      "display_name": "SK가스",
+      "ksic_code": "46713",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00144252",
+      "display_name": "유니온",
+      "ksic_code": "23311",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00145260",
+      "display_name": "율촌화학",
+      "ksic_code": "22231",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00146649",
+      "display_name": "일진홀딩스",
+      "ksic_code": "64992",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00148276",
+      "display_name": "제일기획",
+      "ksic_code": "71310",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00148364",
+      "display_name": "하림지주",
+      "ksic_code": "64992",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00148461",
+      "display_name": "제일연마",
+      "ksic_code": "23992",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00148540",
+      "display_name": "CJ",
+      "ksic_code": "64992",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00148896",
+      "display_name": "OCI홀딩스",
+      "ksic_code": "64992",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00148984",
+      "display_name": "시알홀딩스",
+      "ksic_code": "2321",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00148993",
+      "display_name": "하이트진로홀딩스",
+      "ksic_code": "64992",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00149655",
+      "display_name": "삼성물산",
+      "ksic_code": "467",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00149770",
+      "display_name": "중앙에너비스",
+      "ksic_code": "46712",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00152127",
+      "display_name": "심텍홀딩스",
+      "ksic_code": "715",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00152783",
+      "display_name": "코메론",
+      "ksic_code": "27219",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00152862",
+      "display_name": "코오롱",
+      "ksic_code": "64992",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00153126",
+      "display_name": "크라운해태홀딩스",
+      "ksic_code": "64992",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00153278",
+      "display_name": "서연탑메탈",
+      "ksic_code": "292",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00155212",
+      "display_name": "포스코DX",
+      "ksic_code": "72129",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00155276",
+      "display_name": "포스코퓨처엠",
+      "ksic_code": "282",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00155531",
+      "display_name": "풍산홀딩스",
+      "ksic_code": "64992",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00156859",
+      "display_name": "다올투자증권",
+      "ksic_code": "661",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00156895",
+      "display_name": "아주IB투자",
+      "ksic_code": "649",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00156956",
+      "display_name": "한국기업평가",
+      "ksic_code": "75993",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00157991",
+      "display_name": "한국석유공업",
+      "ksic_code": "23999",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00158316",
+      "display_name": "NICE",
+      "ksic_code": "715",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00158501",
+      "display_name": "에스원",
+      "ksic_code": "75320",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00158565",
+      "display_name": "한국알콜",
+      "ksic_code": "204",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00159643",
+      "display_name": "한국증권금융",
+      "ksic_code": "6499",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00160047",
+      "display_name": "한국앤컴퍼니",
+      "ksic_code": "64992",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00160205",
+      "display_name": "한국내화",
+      "ksic_code": "2321",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00161356",
+      "display_name": "파르나스호텔",
+      "ksic_code": "55101",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00161426",
+      "display_name": "한미사이언스",
+      "ksic_code": "64992",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00161781",
+      "display_name": "아난티",
+      "ksic_code": "551",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00162993",
+      "display_name": "한일홀딩스",
+      "ksic_code": "23311",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00163114",
+      "display_name": "서연",
+      "ksic_code": "64992",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00163318",
+      "display_name": "모헨즈",
+      "ksic_code": "23322",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00163691",
+      "display_name": "유수홀딩스",
+      "ksic_code": "715",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00163761",
+      "display_name": "한창제지",
+      "ksic_code": "171",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00164636",
+      "display_name": "HDC",
+      "ksic_code": "649",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00164672",
+      "display_name": "한일현대시멘트",
+      "ksic_code": "23311",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00164812",
+      "display_name": "현대코퍼레이션",
+      "ksic_code": "46800",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00164830",
+      "display_name": "HD한국조선해양",
+      "ksic_code": "64992",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00165343",
+      "display_name": "혜인",
+      "ksic_code": "465",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00165583",
+      "display_name": "E1",
+      "ksic_code": "46713",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00165653",
+      "display_name": "호텔롯데",
+      "ksic_code": "55101",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00166227",
+      "display_name": "화승인더스트리",
+      "ksic_code": "46800",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00167192",
+      "display_name": "넥센",
+      "ksic_code": "221",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00170026",
+      "display_name": "시공테크",
+      "ksic_code": "732",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00170558",
+      "display_name": "코웨이",
+      "ksic_code": "969",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00171265",
+      "display_name": "파라다이스",
+      "ksic_code": "91249",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00171636",
+      "display_name": "한솔홀딩스",
+      "ksic_code": "64992",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00173032",
+      "display_name": "동화기업",
+      "ksic_code": "16212",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00173698",
+      "display_name": "신일전자",
+      "ksic_code": "46521",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00173874",
+      "display_name": "넥센타이어",
+      "ksic_code": "221",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00173944",
+      "display_name": "우진",
+      "ksic_code": "27216",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00181712",
+      "display_name": "SK",
+      "ksic_code": "64992",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00184667",
+      "display_name": "유진기업",
+      "ksic_code": "23322",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00184889",
+      "display_name": "이건홀딩스",
+      "ksic_code": "161",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00190756",
+      "display_name": "와이엔텍",
+      "ksic_code": "38220",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00195229",
+      "display_name": "미스토홀딩스",
+      "ksic_code": "464",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00199988",
+      "display_name": "SY동아",
+      "ksic_code": "2219",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00201450",
+      "display_name": "에스케이렌터카",
+      "ksic_code": "76110",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00203290",
+      "display_name": "콜마홀딩스",
+      "ksic_code": "64992",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00204262",
+      "display_name": "한컴",
+      "ksic_code": "582",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00204688",
+      "display_name": "대림",
+      "ksic_code": "46739",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00209780",
+      "display_name": "케이씨",
+      "ksic_code": "27216",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00216498",
+      "display_name": "성도이엔지",
+      "ksic_code": "721",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00216762",
+      "display_name": "한양이엔지",
+      "ksic_code": "721",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00219097",
+      "display_name": "BGF",
+      "ksic_code": "64992",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00219361",
+      "display_name": "해성산업",
+      "ksic_code": "649",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00219574",
+      "display_name": "코스맥스비티아이",
+      "ksic_code": "64992",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00220109",
+      "display_name": "알파AI",
+      "ksic_code": "27192",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00226547",
+      "display_name": "오상자이엘",
+      "ksic_code": "582",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00231372",
+      "display_name": "롯데관광개발",
+      "ksic_code": "75210",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00236863",
+      "display_name": "희림",
+      "ksic_code": "72111",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00239639",
+      "display_name": "삼표시멘트",
+      "ksic_code": "239",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00242934",
+      "display_name": "케이엠",
+      "ksic_code": "139",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00244419",
+      "display_name": "디에스티",
+      "ksic_code": "292",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00244455",
+      "display_name": "케이티앤지",
+      "ksic_code": "12000",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00244747",
+      "display_name": "파크시스템스",
+      "ksic_code": "27219",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00245472",
+      "display_name": "티씨케이",
+      "ksic_code": "23999",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00246301",
+      "display_name": "한솔교육",
+      "ksic_code": "85502",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00247975",
+      "display_name": "솔브레인홀딩스",
+      "ksic_code": "715",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00254948",
+      "display_name": "한화호텔앤드리조트",
+      "ksic_code": "55103",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00255257",
+      "display_name": "현대아산",
+      "ksic_code": "75210",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00260657",
+      "display_name": "오상헬스케어",
+      "ksic_code": "271",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00261009",
+      "display_name": "감성코퍼레이션",
+      "ksic_code": "467",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00261355",
+      "display_name": "레드캡투어",
+      "ksic_code": "75210",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00261373",
+      "display_name": "마크로젠",
+      "ksic_code": "73909",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00261443",
+      "display_name": "NC",
+      "ksic_code": "582",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00264671",
+      "display_name": "세중",
+      "ksic_code": "582",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00267854",
+      "display_name": "메디앙스",
+      "ksic_code": "468",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00267942",
+      "display_name": "큐캐피탈",
+      "ksic_code": "649",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00269922",
+      "display_name": "인바디",
+      "ksic_code": "27199",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00269940",
+      "display_name": "하나투어",
+      "ksic_code": "75210",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00270113",
+      "display_name": "멕아이씨에스",
+      "ksic_code": "271",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00273110",
+      "display_name": "에스티큐브",
+      "ksic_code": "465",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00273439",
+      "display_name": "메디아나",
+      "ksic_code": "27112",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00287812",
+      "display_name": "에코심플렉스",
+      "ksic_code": "741",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00296263",
+      "display_name": "YW",
+      "ksic_code": "468",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00297934",
+      "display_name": "피씨디렉트",
+      "ksic_code": "46510",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00299002",
+      "display_name": "HL홀딩스",
+      "ksic_code": "64992",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00299844",
+      "display_name": "미래반도체",
+      "ksic_code": "467",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00302926",
+      "display_name": "현대로템",
+      "ksic_code": "31910",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00309460",
+      "display_name": "HB인베스트먼트",
+      "ksic_code": "649",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00309503",
+      "display_name": "한국항공우주",
+      "ksic_code": "31311",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00327396",
+      "display_name": "옵트론텍",
+      "ksic_code": "273",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00327819",
+      "display_name": "선익시스템",
+      "ksic_code": "292",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00336297",
+      "display_name": "고려신용정보",
+      "ksic_code": "75993",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00340096",
+      "display_name": "미래에셋벤처투자",
+      "ksic_code": "649",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00341916",
+      "display_name": "오스템임플란트",
+      "ksic_code": "27191",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00347062",
+      "display_name": "현대바이오랜드",
+      "ksic_code": "204",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00349927",
+      "display_name": "현대엔지니어링",
+      "ksic_code": "72121",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00351375",
+      "display_name": "뉴보텍",
+      "ksic_code": "22211",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00357935",
+      "display_name": "HDC현대EP",
+      "ksic_code": "204",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00358271",
+      "display_name": "SFA",
+      "ksic_code": "292",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00360142",
+      "display_name": "아이마켓코리아",
+      "ksic_code": "46800",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00362159",
+      "display_name": "웰크론",
+      "ksic_code": "13219",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00362441",
+      "display_name": "현대오토에버",
+      "ksic_code": "582",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00362885",
+      "display_name": "에스텍시스템",
+      "ksic_code": "75310",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00363769",
+      "display_name": "NICE인프라",
+      "ksic_code": "759",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00365387",
+      "display_name": "AJ네트웍스",
+      "ksic_code": "76320",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00366298",
+      "display_name": "대교홀딩스",
+      "ksic_code": "64992",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00371485",
+      "display_name": "켐트로닉스",
+      "ksic_code": "204",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00372253",
+      "display_name": "연우",
+      "ksic_code": "22232",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00373447",
+      "display_name": "서린바이오",
+      "ksic_code": "467",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00373650",
+      "display_name": "조은시스템",
+      "ksic_code": "75310",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00384762",
+      "display_name": "파커스",
+      "ksic_code": "221",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00385363",
+      "display_name": "빅텍",
+      "ksic_code": "27211",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00389970",
+      "display_name": "다날",
+      "ksic_code": "582",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00390408",
+      "display_name": "인크레더블버즈",
+      "ksic_code": "468",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00392770",
+      "display_name": "지아이티",
+      "ksic_code": "27212",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00396925",
+      "display_name": "엠로",
+      "ksic_code": "582",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00398808",
+      "display_name": "디지털대성",
+      "ksic_code": "855",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00399694",
+      "display_name": "SOOP",
+      "ksic_code": "582",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00410915",
+      "display_name": "서울옥션",
+      "ksic_code": "461",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00413523",
+      "display_name": "한미글로벌",
+      "ksic_code": "72111",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00414601",
+      "display_name": "유니퀘스트",
+      "ksic_code": "4659",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00414850",
+      "display_name": "효성 ITX",
+      "ksic_code": "759",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00414975",
+      "display_name": "에스케이쉴더스",
+      "ksic_code": "75320",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00425351",
+      "display_name": "멀티캠퍼스",
+      "ksic_code": "85650",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00435969",
+      "display_name": "인피니트헬스케어",
+      "ksic_code": "582",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00449379",
+      "display_name": "도이치모터스",
+      "ksic_code": "451",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00456218",
+      "display_name": "모두투어",
+      "ksic_code": "75210",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00459871",
+      "display_name": "농심홀딩스",
+      "ksic_code": "64992",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00468374",
+      "display_name": "원익QnC",
+      "ksic_code": "2312",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00481454",
+      "display_name": "금호타이어",
+      "ksic_code": "221",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00494476",
+      "display_name": "이녹스",
+      "ksic_code": "319",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00500254",
+      "display_name": "GS",
+      "ksic_code": "64992",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00503668",
+      "display_name": "LIG디펜스앤에어로스페이스",
+      "ksic_code": "25200",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00525882",
+      "display_name": "크레버스",
+      "ksic_code": "855",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00527464",
+      "display_name": "에이치시티",
+      "ksic_code": "72911",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00531917",
+      "display_name": "톱텍",
+      "ksic_code": "292",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00535746",
+      "display_name": "컴투스홀딩스",
+      "ksic_code": "582",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00536541",
+      "display_name": "에코프로",
+      "ksic_code": "64992",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00539274",
+      "display_name": "대상홀딩스",
+      "ksic_code": "64992",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00545716",
+      "display_name": "롯데렌탈",
+      "ksic_code": "76110",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00547510",
+      "display_name": "툴젠",
+      "ksic_code": "701",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00550994",
+      "display_name": "아이센스",
+      "ksic_code": "27112",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00552859",
+      "display_name": "HLB테라퓨틱스",
+      "ksic_code": "467",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00554352",
+      "display_name": "아이큐어",
+      "ksic_code": "204",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00557933",
+      "display_name": "진도",
+      "ksic_code": "467",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00561866",
+      "display_name": "락앤락",
+      "ksic_code": "22299",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00563545",
+      "display_name": "두산테스나",
+      "ksic_code": "739",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00565154",
+      "display_name": "이노션",
+      "ksic_code": "71310",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00565242",
+      "display_name": "에코비트",
+      "ksic_code": "37011",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00573676",
+      "display_name": "메가젠임플란트",
+      "ksic_code": "27191",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00574611",
+      "display_name": "SDN",
+      "ksic_code": "4659",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00595298",
+      "display_name": "케이티텔레캅",
+      "ksic_code": "75310",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00596677",
+      "display_name": "매커스",
+      "ksic_code": "4659",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00599151",
+      "display_name": "SV인베스트먼트",
+      "ksic_code": "649",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00604426",
+      "display_name": "인터로조",
+      "ksic_code": "271",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00612294",
+      "display_name": "피엔티",
+      "ksic_code": "292",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00614089",
+      "display_name": "에이원큐브텍",
+      "ksic_code": "76310",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00616290",
+      "display_name": "이엠넷",
+      "ksic_code": "71310",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00632304",
+      "display_name": "JW홀딩스",
+      "ksic_code": "64992",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00632845",
+      "display_name": "노랑풍선",
+      "ksic_code": "75210",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00646732",
+      "display_name": "진양홀딩스",
+      "ksic_code": "222",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00652779",
+      "display_name": "네오바이오텍",
+      "ksic_code": "27194",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00657224",
+      "display_name": "아이스크림미디어",
+      "ksic_code": "582",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00657783",
+      "display_name": "모델솔루션",
+      "ksic_code": "292",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00674498",
+      "display_name": "골프존홀딩스",
+      "ksic_code": "461",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00681249",
+      "display_name": "씨유메디칼",
+      "ksic_code": "27112",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00684918",
+      "display_name": "아이비케이투자증권",
+      "ksic_code": "6612",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00688358",
+      "display_name": "하이즈항공",
+      "ksic_code": "313",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00692254",
+      "display_name": "아이패밀리에스씨",
+      "ksic_code": "204",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00759513",
+      "display_name": "LX하우시스",
+      "ksic_code": "2222",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00763701",
+      "display_name": "헥토파이낸셜",
+      "ksic_code": "661",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00767460",
+      "display_name": "PI첨단소재",
+      "ksic_code": "2221",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00776820",
+      "display_name": "영원무역",
+      "ksic_code": "46800",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00799539",
+      "display_name": "제노레이",
+      "ksic_code": "27111",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00820352",
+      "display_name": "파인텍",
+      "ksic_code": "292",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00825959",
+      "display_name": "하이비젼시스템",
+      "ksic_code": "273",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00854997",
+      "display_name": "에스디바이오센서",
+      "ksic_code": "27112",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00878696",
+      "display_name": "에스케이바이오팜",
+      "ksic_code": "7011",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00879020",
+      "display_name": "유니트론텍",
+      "ksic_code": "46522",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00892526",
+      "display_name": "디케이앤디",
+      "ksic_code": "22214",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00903503",
+      "display_name": "GS에너지",
+      "ksic_code": "64992",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00909835",
+      "display_name": "차이커뮤니케이션",
+      "ksic_code": "71310",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00917861",
+      "display_name": "슈피겐코리아",
+      "ksic_code": "339",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00918222",
+      "display_name": "엘앤케이바이오",
+      "ksic_code": "27194",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00922304",
+      "display_name": "아셈스",
+      "ksic_code": "22212",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00925587",
+      "display_name": "위드텍",
+      "ksic_code": "27213",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00937324",
+      "display_name": "한국타이어앤테크놀로지",
+      "ksic_code": "221",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00938721",
+      "display_name": "필옵틱스",
+      "ksic_code": "2927",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00968607",
+      "display_name": "더본코리아",
+      "ksic_code": "468",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00977641",
+      "display_name": "하이로닉",
+      "ksic_code": "27199",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00982023",
+      "display_name": "실리콘투",
+      "ksic_code": "46800",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00983040",
+      "display_name": "한진칼",
+      "ksic_code": "64992",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "00990165",
+      "display_name": "아세아시멘트",
+      "ksic_code": "23311",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "01010642",
+      "display_name": "지씨셀",
+      "ksic_code": "73909",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "01030503",
+      "display_name": "우진엔텍",
+      "ksic_code": "7390",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "01031502",
+      "display_name": "코아시아씨엠",
+      "ksic_code": "273",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "01033591",
+      "display_name": "큐알티",
+      "ksic_code": "73909",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "01042359",
+      "display_name": "지엘팜텍",
+      "ksic_code": "464",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "01042711",
+      "display_name": "글로벌텍스프리",
+      "ksic_code": "661",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "01051065",
+      "display_name": "엔비티",
+      "ksic_code": "71310",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "01060744",
+      "display_name": "한솔제지",
+      "ksic_code": "171",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "01060814",
+      "display_name": "삼양패키징",
+      "ksic_code": "22232",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "01061497",
+      "display_name": "FSN",
+      "ksic_code": "582",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "01065013",
+      "display_name": "콜마바이오텍",
+      "ksic_code": "701",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "01068348",
+      "display_name": "러셀",
+      "ksic_code": "292",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "01071041",
+      "display_name": "CJ 바이오사이언스",
+      "ksic_code": "701",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "01089350",
+      "display_name": "켐트로스",
+      "ksic_code": "204",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "01096341",
+      "display_name": "넥슨게임즈",
+      "ksic_code": "582",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "01117413",
+      "display_name": "바이오다인",
+      "ksic_code": "2719",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "01135941",
+      "display_name": "원익IPS",
+      "ksic_code": "292",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "01136977",
+      "display_name": "마녀공장",
+      "ksic_code": "204",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "01142260",
+      "display_name": "에스엠씨지",
+      "ksic_code": "231",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "01153105",
+      "display_name": "비비씨",
+      "ksic_code": "204",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "01153293",
+      "display_name": "제이엘케이",
+      "ksic_code": "582",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "01161432",
+      "display_name": "레이저옵텍",
+      "ksic_code": "27112",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "01187148",
+      "display_name": "케어랩스",
+      "ksic_code": "713",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "01187494",
+      "display_name": "덴티스",
+      "ksic_code": "271",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "01194689",
+      "display_name": "HD현대마린솔루션",
+      "ksic_code": "7212",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "01205709",
+      "display_name": "HD현대",
+      "ksic_code": "64992",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "01211232",
+      "display_name": "코윈로보틱스",
+      "ksic_code": "292",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "01218299",
+      "display_name": "에코아이",
+      "ksic_code": "716",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "01261893",
+      "display_name": "케이씨텍",
+      "ksic_code": "272",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "01265251",
+      "display_name": "츌립앤사이언스",
+      "ksic_code": "701",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "01267602",
+      "display_name": "제이시스메디칼",
+      "ksic_code": "271",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "01267967",
+      "display_name": "마이크로디지탈",
+      "ksic_code": "271",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "01275665",
+      "display_name": "리메드",
+      "ksic_code": "27199",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "01299203",
+      "display_name": "그리드위즈",
+      "ksic_code": "739",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "01305249",
+      "display_name": "스톤브릿지벤처스",
+      "ksic_code": "649",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "01310241",
+      "display_name": "두나무",
+      "ksic_code": "63",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "01318261",
+      "display_name": "더블유에스아이",
+      "ksic_code": "464",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "01319808",
+      "display_name": "한일시멘트",
+      "ksic_code": "23311",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "01323032",
+      "display_name": "KG모빌리티플랫폼",
+      "ksic_code": "45120",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "01327746",
+      "display_name": "보로노이",
+      "ksic_code": "701",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "01344202",
+      "display_name": "뷰노",
+      "ksic_code": "582",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "01357446",
+      "display_name": "퓨런티어",
+      "ksic_code": "27213",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "01366000",
+      "display_name": "태성",
+      "ksic_code": "292",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "01368354",
+      "display_name": "네패스아크",
+      "ksic_code": "739",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "01374717",
+      "display_name": "미트박스",
+      "ksic_code": "639",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "01386916",
+      "display_name": "SK아이이테크놀로지",
+      "ksic_code": "282",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "01391103",
+      "display_name": "젝시믹스",
+      "ksic_code": "639",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "01407909",
+      "display_name": "원텍",
+      "ksic_code": "271",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "01428203",
+      "display_name": "케이씨씨글라스",
+      "ksic_code": "2311",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "01459212",
+      "display_name": "원준",
+      "ksic_code": "292",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "01468061",
+      "display_name": "레뷰코퍼레이션",
+      "ksic_code": "71310",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "01480708",
+      "display_name": "HEM파마",
+      "ksic_code": "70111",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "01489648",
+      "display_name": "솔브레인",
+      "ksic_code": "204",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "01497869",
+      "display_name": "티와이홀딩스",
+      "ksic_code": "64992",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "01511558",
+      "display_name": "네오이뮨텍",
+      "ksic_code": "70130",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "01516890",
+      "display_name": "E8",
+      "ksic_code": "582",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "01519790",
+      "display_name": "엠앤씨솔루션",
+      "ksic_code": "292",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "01559637",
+      "display_name": "블루엠텍",
+      "ksic_code": "467",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "01562589",
+      "display_name": "LX홀딩스",
+      "ksic_code": "64992",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "01573336",
+      "display_name": "토모큐브",
+      "ksic_code": "27309",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "01590528",
+      "display_name": "아스테라시스",
+      "ksic_code": "27112",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "01596425",
+      "display_name": "SK스퀘어",
+      "ksic_code": "64992",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "01632912",
+      "display_name": "온코닉테라퓨틱스",
+      "ksic_code": "701",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "01636565",
+      "display_name": "루미르",
+      "ksic_code": "31311",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "01689266",
+      "display_name": "케이쓰리아이",
+      "ksic_code": "582",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "01712485",
+      "display_name": "코오롱모빌리티그룹",
+      "ksic_code": "45110",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "01770203",
+      "display_name": "조선내화",
+      "ksic_code": "2321",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "01782952",
+      "display_name": "엘티",
+      "ksic_code": "64992",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "01803635",
+      "display_name": "에스투더블유",
+      "ksic_code": "582",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "01810477",
+      "display_name": "노타",
+      "ksic_code": "582",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    },
+    {
+      "corp_code": "01965324",
+      "display_name": "삼성에피스홀딩스",
+      "ksic_code": "64992",
+      "review_status": "pending",
+      "reason": "업종코드가 포괄적이거나 현재 분류 범위 밖임. 주요 사업 및 지주회사 유형 검토 필요"
+    }
+  ]
+}
