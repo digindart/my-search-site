@@ -1,0 +1,17 @@
+/* Shared SALARY INSIGHT header and link buttons: company search, industries and groups. */
+.site-header {
+  display:flex;align-items:center;justify-content:space-between;gap:20px;
+  margin:0 0 32px;padding:22px 26px;max-width:none;
+  background:#102a43;border:0;border-radius:12px;color:#fff;
+}
+.site-header .brand {display:flex;align-items:center;gap:12px;color:#fff;text-decoration:none;font-size:inherit;font-weight:inherit;flex-shrink:0;}
+.brand-icon {display:flex;align-items:center;justify-content:center;width:44px;height:44px;flex-shrink:0;background:#1766b2;border-radius:10px;font-size:25px;font-weight:800;color:#fff;}
+.brand-name {display:block;font-size:19px;font-weight:800;letter-spacing:.5px;line-height:1.6;}
+.brand-subtitle {display:block;color:#bfd0e0;font-size:11px;line-height:1.6;}
+.site-header .site-nav {display:flex;gap:18px;flex-wrap:wrap;align-items:center;}
+.site-nav a {color:#e1ebf5;font-size:13px;font-weight:600;text-decoration:none;line-height:1.6;}
+.site-nav a:hover,.site-nav a[aria-current="page"] {color:#fff;text-decoration:underline;text-underline-offset:4px;}
+.button,.more-info-button {display:inline-flex;align-items:center;justify-content:center;padding:10px 14px;border:0;border-radius:8px;background:#1766b2;color:#fff;font:600 14px/1.4 -apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Malgun Gothic",sans-serif;text-decoration:none;white-space:nowrap;cursor:pointer;}
+.button:hover,.more-info-button:hover {background:#104e8b;color:#fff;text-decoration:none;}
+.site-header a:focus-visible,.button:focus-visible {outline:3px solid #e8a83e;outline-offset:4px;}
+@media(max-width:600px){.site-header{padding:18px;flex-direction:column;align-items:flex-start;}.site-header .site-nav{gap:14px;}}

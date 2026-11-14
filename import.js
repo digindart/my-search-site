@@ -1,3 +1,4 @@
+require("dotenv").config();
 
 const XLSX = require("xlsx");
 const mysql = require("mysql2/promise");
@@ -23,13 +24,7 @@ async function main() {
     console.log(`엑셀에서 ${rows.length}행을 읽었습니다.`);
 
     // 2. MariaDB 연결
-    connection = await mysql.createConnection({
-      host: "127.0.0.1",
-      port: 3306,
-      user: "salary_app",
-      password: "LocalSalary_2026!",
-      database: "searchdb",
-    });
+    connection = await mysql.createConnection(require("./lib/db").dbConfig());
 
     console.log("MariaDB 접속 성공!");
 
@@ -58,6 +53,9 @@ async function main() {
             : null,
         ];
       });
+
+    if (!data.length) throw new Error("빈 파일은 반영할 수 없습니다.");
+    if (!process.argv.includes("--replace-all")) throw new Error("전체 교체는 --replace-all 옵션이 필요합니다. 신규 DART 데이터는 dart:apply를 이용하세요.");
 
     // 4. 데이터를 500행씩 저장
     await connection.beginTransaction();

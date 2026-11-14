@@ -1,0 +1,182 @@
+[
+  {
+    "code": "SECURITIES",
+    "slug": "securities",
+    "name": "증권",
+    "description": "증권 중개, 인수 및 투자은행 업무를 수행하는 회사의 공시 개인별 보수를 살펴봅니다.",
+    "parent_code": "FINANCE",
+    "sort_order": 1,
+    "page_enabled": true
+  },
+  {
+    "code": "BANKING",
+    "slug": "banking",
+    "name": "은행·금융지주",
+    "description": "은행과 금융지주는 별도 법인으로 구분하며, 공시 지급 법인을 기준으로 비교합니다.",
+    "parent_code": "FINANCE",
+    "sort_order": 2,
+    "page_enabled": true
+  },
+  {
+    "code": "INSURANCE",
+    "slug": "insurance",
+    "name": "보험",
+    "description": "생명보험·손해보험·재보험은 사업 구조와 보상 방식이 달라 세부 구분을 함께 확인합니다.",
+    "parent_code": "FINANCE",
+    "sort_order": 3,
+    "page_enabled": true
+  },
+  {
+    "code": "OTHER_FINANCE",
+    "slug": "other-finance",
+    "name": "카드·캐피탈·기타금융",
+    "description": "카드, 할부금융, 자산운용 등은 회사의 실제 주력 사업을 확인한 뒤 구분합니다.",
+    "parent_code": "FINANCE",
+    "sort_order": 4,
+    "page_enabled": true
+  },
+  {
+    "code": "SEMICONDUCTOR",
+    "slug": "semiconductor",
+    "name": "반도체",
+    "description": "메모리·시스템 반도체, 제조 및 관련 공정 사업을 주력 사업 기준으로 구분합니다.",
+    "parent_code": null,
+    "sort_order": 5,
+    "page_enabled": true
+  },
+  {
+    "code": "ELECTRONICS",
+    "slug": "electronics",
+    "name": "전자·전기",
+    "description": "전자제품과 전기·전자 부품 사업을 주력으로 하는 기업을 구분합니다.",
+    "parent_code": null,
+    "sort_order": 6,
+    "page_enabled": true
+  },
+  {
+    "code": "AUTOMOTIVE",
+    "slug": "automotive",
+    "name": "자동차·부품",
+    "description": "완성차와 자동차 부품 기업을 구분하고 기업별 공시 보수를 비교합니다.",
+    "parent_code": null,
+    "sort_order": 7,
+    "page_enabled": true
+  },
+  {
+    "code": "BATTERY",
+    "slug": "battery",
+    "name": "2차전지·배터리",
+    "description": "배터리 셀, 소재, 부품 등 사업 범위와 주력 사업을 확인합니다.",
+    "parent_code": null,
+    "sort_order": 8,
+    "page_enabled": true
+  },
+  {
+    "code": "CHEMICAL",
+    "slug": "chemical",
+    "name": "화학·정유",
+    "description": "화학제품과 석유 정제 사업을 구분하고 복합사업 기업은 주력 사업을 검토합니다.",
+    "parent_code": null,
+    "sort_order": 9,
+    "page_enabled": true
+  },
+  {
+    "code": "STEEL",
+    "slug": "steel",
+    "name": "철강·금속",
+    "description": "철강과 금속 소재 기업을 구분합니다. 지주사는 자회사와 별도로 판단합니다.",
+    "parent_code": null,
+    "sort_order": 10,
+    "page_enabled": true
+  },
+  {
+    "code": "SHIPBUILDING",
+    "slug": "shipbuilding",
+    "name": "조선·기계",
+    "description": "조선과 기계 기업을 세부 사업에 따라 구분하고 보수 지급 법인을 확인합니다.",
+    "parent_code": null,
+    "sort_order": 11,
+    "page_enabled": true
+  },
+  {
+    "code": "CONSTRUCTION",
+    "slug": "construction",
+    "name": "건설·부동산",
+    "description": "건설과 부동산 개발·운영 사업은 사업보고서의 주요 사업을 확인합니다.",
+    "parent_code": null,
+    "sort_order": 12,
+    "page_enabled": true
+  },
+  {
+    "code": "BIO_PHARMA",
+    "slug": "bio-pharma",
+    "name": "바이오·제약",
+    "description": "신약 연구, 의약품 제조 및 관련 사업을 구분합니다. 외국계 발행사는 보수 통화도 확인합니다.",
+    "parent_code": null,
+    "sort_order": 13,
+    "page_enabled": true
+  },
+  {
+    "code": "IT_INTERNET",
+    "slug": "it-internet",
+    "name": "IT·인터넷",
+    "description": "인터넷 플랫폼, 소프트웨어 및 IT 서비스 기업의 주력 사업을 구분합니다.",
+    "parent_code": null,
+    "sort_order": 14,
+    "page_enabled": true
+  },
+  {
+    "code": "GAME_CONTENT",
+    "slug": "game-content",
+    "name": "게임·콘텐츠",
+    "description": "게임과 콘텐츠 사업의 범위를 확인하며 일회성 주식 보상은 기본급과 구분합니다.",
+    "parent_code": null,
+    "sort_order": 15,
+    "page_enabled": true
+  },
+  {
+    "code": "TELECOM",
+    "slug": "telecom",
+    "name": "통신",
+    "description": "통신 서비스를 주력으로 하는 기업을 분류하며 통신 지주사와 서비스 법인을 구분합니다.",
+    "parent_code": null,
+    "sort_order": 16,
+    "page_enabled": true
+  },
+  {
+    "code": "RETAIL",
+    "slug": "retail",
+    "name": "유통·소비재",
+    "description": "유통과 소비재 제조·판매 기업의 주력 매출 사업을 확인합니다.",
+    "parent_code": null,
+    "sort_order": 17,
+    "page_enabled": true
+  },
+  {
+    "code": "FOOD",
+    "slug": "food",
+    "name": "식품·음료",
+    "description": "식품과 음료 사업을 구분하며 복합사업 기업은 사업별 매출 구조를 확인합니다.",
+    "parent_code": null,
+    "sort_order": 18,
+    "page_enabled": true
+  },
+  {
+    "code": "TRANSPORT",
+    "slug": "transport",
+    "name": "항공·운송·물류",
+    "description": "항공, 해운 및 물류 기업을 구분하고 공시 법인 단위로 비교합니다.",
+    "parent_code": null,
+    "sort_order": 19,
+    "page_enabled": true
+  },
+  {
+    "code": "ENERGY",
+    "slug": "energy",
+    "name": "에너지·유틸리티",
+    "description": "전력, 가스 및 에너지 사업을 구분하며 정유·화학과의 경계를 검토합니다.",
+    "parent_code": null,
+    "sort_order": 20,
+    "page_enabled": true
+  }
+]

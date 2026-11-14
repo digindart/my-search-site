@@ -1,0 +1,8 @@
+{
+  "source_url": "https://kiri.or.kr/PDF/weeklytrend/20241028/trend20241028_1.pdf",
+  "basis": "금융감독원 2024년 상반기 금융지주회사 경영실적의 10개 금융지주 명단과 DART 법인 고유번호 대조. 서비스의 은행·금융지주 업권에는 비은행 금융지주도 포함. DGB의 현 명칭은 iM금융지주이며 동일 DART 법인으로 연결",
+  "companies": {
+    "00688996": "BANKING", "00382199": "BANKING", "00547583": "BANKING", "01350869": "BANKING", "00908021": "BANKING",
+    "00878915": "BANKING", "00858364": "BANKING", "00980122": "BANKING", "00432102": "BANKING", "00860332": "BANKING"
+  }
+}

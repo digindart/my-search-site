@@ -3,22 +3,12 @@
 <html lang="ko">
 <head>
 
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9113538104117961"
-     crossorigin="anonymous"></script>
-
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>기업 연봉 검색</title>
+  <title>기업 연봉 검색 | SALARY INSIGHT</title>
+  <meta name="description" content="회사명과 결산연도로 기업 임직원의 공시 보수 정보를 검색하세요. 자동완성, 보수 정렬과 검색 결과 다운로드를 제공합니다.">
+  <link rel="canonical" href="https://salaryinsight.co.kr/">
   <style>
-
-
-<title>기업별 임직원 연봉 검색 | Salary Insight</title>
-
-<meta name="description"
-content="국내 상장기업의 임직원 연봉과 보수총액을 간편하게 검색하세요. 회사명과 연도별 임원 보수 정보를 확인할 수 있는 Salary Insight.">
-
-
-<style>
   /* 기본 설정 */
   * {
     box-sizing: border-box;
@@ -116,7 +106,9 @@ content="국내 상장기업의 임직원 연봉과 보수총액을 간편하게
     border: 1px solid #dce3ec;
     border-radius: 9px;
     box-shadow: 0 10px 28px rgba(16, 42, 67, 0.12);
-    overflow: hidden;
+    max-height: 320px;
+    overflow-y: auto;
+    overscroll-behavior: contain;
   }
 
   .suggestion-item {
@@ -129,7 +121,8 @@ content="국내 상장기업의 임직원 연봉과 보수총액을 간편하게
     border-bottom: none;
   }
 
-  .suggestion-item:hover {
+  .suggestion-item:hover,
+  .suggestion-item[aria-selected="true"] {
     background: #edf5ff;
     color: #1766b2;
   }
@@ -517,26 +510,15 @@ content="국내 상장기업의 임직원 연봉과 보수총액을 간편하게
 }
 
   </style>
+  <link rel="stylesheet" href="/brand.css">
 </head>
 <body>
 
-<header class="site-header">
-    <div class="brand">
-      <div class="brand-icon">P</div>
-      <div>
-        <div class="brand-name">PAY INSIGHT</div>
-        <div class="brand-subtitle">기업 보수정보 플랫폼</div>
-      </div>
-    </div>
-  
-    <nav class="site-nav">
-      <a href="/">기업 연봉 검색</a>
-    </nav>
-  </header>
+<header class="site-header"><a class="brand" href="/" aria-label="SALARY INSIGHT 기업 검색"><span class="brand-icon" aria-hidden="true">S</span><span><span class="brand-name">SALARY INSIGHT</span><span class="brand-subtitle">국내 기업 연봉정보 플랫폼</span></span></a><nav class="site-nav" aria-label="주요 메뉴"><a href="/" aria-current="page">기업 검색</a><a href="/industries">업권별 정보</a><a href="/groups">기업그룹별 정보</a></nav></header>
   
   <h1>기업 연봉 검색</h1>
   <p class="description">
-    회사명을 입력하면 해당 기업의 임직원 보수 데이터를 검색합니다.
+    회사명 일부로 여러 기업을 검색하거나, 추천 목록에서 특정 기업을 선택하세요.
   </p>
 
   <section class="search-card">
@@ -546,7 +528,7 @@ content="국내 상장기업의 임직원 연봉과 보수총액을 간편하게
       <input
         id="company"
         type="text"
-        placeholder="회사명을 입력하세요. 예: 삼성전자"
+        placeholder="회사명을 입력하세요. 예: 삼성, 삼성전자"
         autocomplete="off"
       >
       <div id="suggestions" class="suggestions"></div>
@@ -582,7 +564,7 @@ content="국내 상장기업의 임직원 연봉과 보수총액을 간편하게
           <th>결산기준일</th>
           <th>이름</th>
           <th>직위</th>
-          <th>보수총액</th>
+          <th>보수총액</th><th>관련 정보</th>
         </tr>
       </thead>
       <tbody id="results"></tbody>
@@ -599,15 +581,18 @@ content="국내 상장기업의 임직원 연봉과 보수총액을 간편하게
     <p>
       검색 결과는 데이터의 수집 시점과 정리 방식에 따라
       실제 공시 자료와 차이가 있을 수 있습니다.
-      중요한 의사결정에는 원본 공시 자료를 확인하시기 바랍니다.
+      중요한 의사결정에는 원본 공시 자료를 확인하시기 바랍니다. 기존 2021~2023 자료의 일부 금액은 단위 확인이 진행 중입니다. <a href="/methodology">자료 출처·정제 기준</a> · <a href="/privacy">개인정보 안내</a>
     </p>
   </section>
   
   <footer class="site-footer">
-    <span>© 2026 PAY INSIGHT</span>
+    <span>© 2026 SALARY INSIGHT</span>
     <span>기업 보수정보 검색 서비스</span>
   </footer>
   
+  <script src="/csv.js"></script>
+  <script src="/autocomplete.js"></script>
+  <script src="/news-search.js"></script>
   <script>
     
 const companyInput = document.getElementById("company");
@@ -622,11 +607,16 @@ const PAGE_SIZE = 20;
 let currentPage = 1;
 const yearFilter = document.getElementById("yearFilter");
 const sortFilter = document.getElementById("sortFilter");
-let suggestRequest = 0;
+let searchRequest = 0;
+let selectedCompany = null;
+const companyAutocomplete = PayInsightAutocomplete.attach({
+  input: companyInput, list: suggestions,
+  onSelect: name => { selectedCompany = name; }
+});
+companyInput.addEventListener("input", () => { selectedCompany = null; });
 
 function hideSuggestions() {
-  suggestions.replaceChildren();
-  suggestions.style.display = "none";
+  companyAutocomplete.dismiss();
 }
 
 function formatCompensation(value) {
@@ -669,59 +659,10 @@ function addCell(row, value) {
   row.appendChild(cell);
 }
 
-// 회사명 추천 목록 표시
-async function loadSuggestions() {
-  const company = companyInput.value.trim();
-  const requestId = ++suggestRequest;
-
-  hideSuggestions();
-
-  // 한글 두 글자 미만이면 추천하지 않음
-  if ([...company].length < 2) {
-    return;
-  }
-
-  try {
-    const response = await fetch(
-      "/api/suggest?company=" + encodeURIComponent(company)
-    );
-
-    if (!response.ok) {
-      throw new Error("추천 목록을 불러오지 못했습니다.");
-    }
-
-    const data = await response.json();
-    
-    // 더 최근 입력이 있으면 이전 요청 결과는 무시
-    if (requestId !== suggestRequest) {
-      return;
-    }
-
-    for (const name of data) {
-      const item = document.createElement("div");
-      item.className = "suggestion-item";
-      item.textContent = name;
-
-      item.addEventListener("click", () => {
-        companyInput.value = name;
-        hideSuggestions();
-        companyInput.focus();
-      });
-
-      suggestions.appendChild(item);
-    }
-
-    if (data.length > 0) {
-      suggestions.style.display = "block";
-    }
-  } catch (error) {
-    console.error("자동완성 오류:", error);
-  }
-}
-
 // 검색 결과 표시
 async function searchCompany() {
   const company = companyInput.value.trim();
+  const requestId = ++searchRequest;
 
   hideSuggestions();
   results.replaceChildren();
@@ -729,6 +670,7 @@ async function searchCompany() {
   downloadButton.disabled = true;
   pagination.replaceChildren();
   if (!company) {
+    searchButton.disabled = false;
     status.textContent = "회사명을 먼저 입력해주세요.";
     return;
   }
@@ -741,7 +683,8 @@ async function searchCompany() {
 const params = new URLSearchParams({
   company: company,
   year: yearFilter.value,
-  sort: sortFilter.value
+  sort: sortFilter.value,
+  match: selectedCompany === company ? "exact" : "contains"
 });
 
 const response = await fetch("/api/search?" + params.toString());
@@ -753,6 +696,7 @@ const response = await fetch("/api/search?" + params.toString());
 
     const data = await response.json();
 
+    if (requestId !== searchRequest) return;
     currentResults = data;
 downloadButton.disabled = data.length === 0;
 
@@ -764,31 +708,26 @@ downloadButton.disabled = data.length === 0;
     renderPage(1);
 
     status.textContent =
-      data.length + "건의 검색 결과를 찾았습니다.";
+      new Set(data.map(item => item.company_name)).size + "개 기업, " + data.length + "건의 검색 결과를 찾았습니다.";
   } catch (error) {
+    if (requestId !== searchRequest) return;
     console.error(error);
     status.textContent =
-      "검색에 실패했습니다. 서버 실행 상태를 확인해주세요.";
+      "자료를 불러오지 못했습니다. 잠시 후 다시 시도해주세요.";
   } finally {
-    searchButton.disabled = false;
+    if (requestId === searchRequest) searchButton.disabled = false;
   }
 }
 
-companyInput.addEventListener("input", loadSuggestions);
 searchButton.addEventListener("click", searchCompany);
 
 companyInput.addEventListener("keydown", (event) => {
+  if (event.defaultPrevented || event.isComposing || event.keyCode === 229) return;
   if (event.key === "Enter") {
     searchCompany();
   }
 
   if (event.key === "Escape") {
-    hideSuggestions();
-  }
-});
-
-document.addEventListener("click", (event) => {
-  if (!event.target.closest(".autocomplete")) {
     hideSuggestions();
   }
 });
@@ -824,7 +763,23 @@ sortFilter.addEventListener("change", () => {
   if (companyInput.value.trim()) searchCompany();
 });
 
-loadYears();
+loadYears().then(() => {
+  const initial = new URLSearchParams(location.search);
+  const company = initial.get("company");
+  if (company && company.length <= 255) {
+    companyInput.value = company;
+    if (initial.get("match") === "exact") selectedCompany = company;
+    const year = initial.get("year");
+    if (year) {
+      if (![...yearFilter.options].some(option => option.value === year)) {
+        status.textContent = "요청한 연도의 자료를 확인할 수 없습니다. 연도를 다시 선택해주세요.";
+        return;
+      }
+      yearFilter.value = year;
+    }
+    searchCompany();
+  }
+});
 
 function renderPage(page) {
   const totalPages = Math.ceil(currentResults.length / PAGE_SIZE);
@@ -849,8 +804,20 @@ function renderPage(page) {
     addCell(row, item.fiscal_year);
     addCell(row, item.employee_name);
     addCell(row, item.position_name);
-    addCell(row, formatCompensation(item.compensation));
+    addCell(row, item.review_required ? "원문 검토 중" : formatCompensation(item.compensation));
 
+    const detail = document.createElement("td");
+    if (item.employee_name && item.employee_name !== "-" && !/[○●〇*]|[OX]{2,}/.test(item.employee_name)) {
+      const link = document.createElement("a");
+      link.href = SalaryNewsSearch.newsURL(item);
+      link.target = "_blank";
+      link.rel = "noopener noreferrer";
+      link.className = "button more-info-button";
+      link.textContent = "더 알아보기";
+      link.setAttribute("aria-label", item.employee_name + " 기사 검색 (새 창)");
+      detail.appendChild(link);
+    }
+    row.appendChild(detail);
     results.appendChild(row);
   }
 
@@ -896,7 +863,7 @@ function downloadCSV() {
   if (currentResults.length === 0) return;
 
   const headers = [
-    "회사명", "결산연도", "이름", "직위", "보수총액(원)"
+    "회사명", "결산연도", "이름", "직위", "보수총액(원)", "검토상태"
   ];
 
   const rows = currentResults.map(item => [
@@ -904,17 +871,11 @@ function downloadCSV() {
     item.fiscal_year,
     item.employee_name,
     item.position_name,
-    item.compensation
+    item.compensation,
+    item.review_required ? "원문 검토 필요 — 순위 제외" : ""
   ]);
 
-  function escapeCSV(value) {
-    const text = value == null ? "" : String(value);
-    return '"' + text.replace(/"/g, '""') + '"';
-  }
-
-  const csv = [headers, ...rows]
-    .map(row => row.map(escapeCSV).join(","))
-    .join("\r\n");
+  const csv = PayInsightCSV.serialize([headers, ...rows]);
 
   // 한글이 엑셀에서 깨지지 않도록 UTF-8 BOM 추가
   const blob = new Blob(["\uFEFF", csv], {
