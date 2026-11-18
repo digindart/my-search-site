@@ -40,7 +40,7 @@ app.get('/groups/:slug',asyncRoute(async(req,res)=>{
  const category=groups.find(c=>c.slug===req.params.slug);if(!category)return res.status(404).send('그룹 페이지를 찾을 수 없습니다.');
  return renderCategory(category,req,res,'/groups');
 }));
-app.get('/rankings',(req,res)=>res.send(layout('공시 보수 정보 안내','업권별 정보와 기업그룹별 고액보수 정보를 별도 페이지에서 확인하세요.','/rankings',`<h1>공시 보수 정보 안내</h1><div class="cards"><a class="card" href="/industries"><h2>업권별 정보</h2><p>업권별 기업 분류와 공시 보수 정보를 확인합니다.</p></a><a class="card" href="/groups"><h2>기업그룹별 정보</h2><p>주요 그룹의 선정 회사별 고액보수 정보를 확인합니다.</p></a></div><h2>기존 선정 회사 순위</h2><p><a href="/rankings/securities">증권사 선정 목록</a> · <a href="/rankings/banks">은행 선정 목록</a> · <a href="/rankings/insurance">보험사 선정 목록</a></p>`)));
+app.get('/rankings',(req,res)=>res.send(layout('공시 보수 정보 안내','업권별 정보와 기업그룹별 고액보수 정보를 별도 페이지에서 확인하세요.','/rankings',`<h1>공시 보수 정보 안내</h1><div class="cards"><a class="card" href="/industries"><h2>업권별 정보</h2><p>업권별 기업 분류와 공시 보수 정보를 확인합니다.</p></a><a class="card" href="/groups"><h2>기업그룹별 정보</h2><p>주요 그룹의 선정 회사별 고액보수 정보를 확인합니다.</p></a></div><h2>기존 선정 회사 순위</h2><p><a href="/industries/securities">증권사 고액연봉자 순위</a> · <a href="/rankings/securities">기존 증권사 선정 목록</a> · <a href="/rankings/banks">은행 선정 목록</a> · <a href="/rankings/insurance">보험사 선정 목록</a></p>`)));
 app.get('/rankings/:slug',asyncRoute(async(req,res)=>{
  const category=categories.find(c=>c.slug===req.params.slug);if(!category)return res.status(404).send('페이지를 찾을 수 없습니다.');
  if(groups.some(c=>c.slug===category.slug)){const year=yearParam(req);return res.redirect(301,'/groups/'+category.slug+(year?'?year='+encodeURIComponent(year):''));}
